@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   repo: mitchhankins01/thedebuglife
-  branch: master
+  branch: main
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
     update: "Update {{collection}} “{{slug}}”"
@@ -12,6 +12,7 @@ backend:
 local_backend: true
 media_folder: static/img
 public_folder: /img
+publish_mode: editorial_workflow
 
 collections:
   - name: "blog"
