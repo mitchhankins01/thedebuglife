@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  repo: mitchhankins01/thedebuglife
   branch: master
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
