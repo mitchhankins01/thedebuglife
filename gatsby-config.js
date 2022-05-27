@@ -40,6 +40,19 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `TheDebugLife`,
+        short_name: `TheDebugLife`,
+        start_url: `/`,
+        background_color: `#2E7D32`,
+        theme_color: `#43A047`,
+        display: `standalone`,
+        icon: `src/img/logo.svg`
+      },
+    },
+    `gatsby-plugin-offline`,
+    {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
@@ -68,6 +81,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `thedebuglife`
+      }
+    },
+    {
       resolve: "gatsby-plugin-netlify-cms",
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
@@ -80,6 +99,20 @@ module.exports = {
         purgeOnly: ["/all.sass"], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: ['G-JSVCY42JNJ'],
+        // This object gets passed directly to the gtag config command
+        // This config will be shared across all trackingIds
+        // This object is used for configuration specific to this plugin
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true,
+        },
+      },
+    },
     "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],
 };

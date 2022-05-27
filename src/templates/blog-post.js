@@ -5,6 +5,7 @@ import { Helmet } from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import { Disqus, CommentCount } from "gatsby-plugin-disqus";
 
 // eslint-disable-next-line
 export const BlogPostTemplate = ({
@@ -76,6 +77,18 @@ const BlogPost = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
+      <section className="section">
+        <div className="container content">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <h1 className="title is-size-3 has-text-weight-bold is-bold-light">
+                Comments
+              </h1>
+              <Disqus config={{ identifier: post.id, title: post.title }} />
+            </div>
+          </div>
+        </div>
+      </section>
     </Layout>
   );
 };
