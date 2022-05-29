@@ -6,9 +6,27 @@ $gray-accent-light: #DEE5E8
 $primary: #2E7D32
 $primary-invert: $gray-accent-light
 $body-color: red
-$background: $gray-accent-light
+$background: $gray-accent-dark
 $link: red
 $family-primary: "Fira Code", $family-sans-serif
+
+@media (prefers-color-scheme: dark)
+  $gray-accent-dark: scale-color($gray-accent-dark, $lightness: -90%) !global
+  $primary: scale-color($primary, $lightness: -60%) !global
+  $background: scale-color($gray-accent-dark, $lightness: -60%) !global
+
+.layout-children
+  background: $gray-accent-dark
+
+.navbar-logo-link
+  padding: 0 !important
+  pointer-events: none
+
+.navbar-logo
+  height: 50px
+  width: 50px
+  fill: red !important
+  color: green !important
 
 .margin-top-0
   margin-top: 0 !important
@@ -34,5 +52,9 @@ $family-primary: "Fira Code", $family-sans-serif
   display: flex
   justify-content: center
   align-items: center
+
+// @media (prefers-color-scheme: dark)
+//   .layout-children
+//     background: scale-color($gray-accent-dark, $lightness: -90%)
 
 @import "~bulma"

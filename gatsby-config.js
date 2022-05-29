@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "The Debug Life",
-    description:
-      "Build a community to support your journey of self discovery.",
+    description: "Build a community to support your journey of self discovery.",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -48,10 +47,18 @@ module.exports = {
         background_color: `#2E7D32`,
         theme_color: `#43A047`,
         display: `standalone`,
-        icon: `src/img/logo.svg`
+        icon: `src/img/logo.svg`,
       },
     },
     `gatsby-plugin-offline`,
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /img/,
+        },
+      },
+    },
     {
       resolve: "gatsby-transformer-remark",
       options: {
@@ -83,8 +90,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: `thedebuglife`
-      }
+        shortname: `thedebuglife`,
+      },
     },
     {
       resolve: "gatsby-plugin-netlify-cms",
@@ -103,7 +110,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: ['G-JSVCY42JNJ'],
+        trackingIds: ["G-JSVCY42JNJ"],
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds
         // This object is used for configuration specific to this plugin
