@@ -5,6 +5,22 @@ import Navbar from "../components/Navbar";
 import "./all.sass";
 import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
+import Logo from "../img/logo.svg";
+
+const Hero = () => {
+  return (
+    <section className="hero">
+      <div className="hero-body"></div>
+      <div className="hero-cutout">
+        <div>
+          {/* <Logo className="hero-logo" alt="theDebugLife" /> */}
+          <p>the</p>
+          <p>Debug Life</p>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
@@ -49,6 +65,7 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <Navbar />
+      <Hero />
       <div className="layout-children">{children}</div>
       <Footer />
     </div>
@@ -56,3 +73,5 @@ const TemplateWrapper = ({ children }) => {
 };
 
 export default TemplateWrapper;
+
+// adskfjaklsdj fl;kjsaddfk jasdlkfj asdkljflaksjf lkasdj flkasdjflkasdjdl;kf jasddlkfjasdlkf jals;dkjf kalsddjflkasdjkasdjfkasdj kasdkf j

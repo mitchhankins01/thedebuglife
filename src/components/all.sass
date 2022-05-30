@@ -1,3 +1,4 @@
+// // https://bulma.io/documentation/customize/variables/
 @import "~bulma/sass/utilities/initial-variables"
 
 $gray-accent-dark: #CFD8DC
@@ -5,15 +6,17 @@ $gray-accent-light: #DEE5E8
 
 $primary: #2E7D32
 $primary-invert: $gray-accent-light
-$body-color: red
+$body-color: #263238
 $background: $gray-accent-dark
 $link: red
 $family-primary: "Fira Code", $family-sans-serif
 
 @media (prefers-color-scheme: dark)
-  $gray-accent-dark: scale-color($gray-accent-dark, $lightness: -90%) !global
-  $primary: scale-color($primary, $lightness: -60%) !global
-  $background: scale-color($gray-accent-dark, $lightness: -60%) !global
+  // $gray-accent-light: scale-color($gray-accent-light, $lightness: 100%) !global
+  // $gray-accent-dark: scale-color($gray-accent-dark, $lightness: -90%) !global
+  // $primary: scale-color($primary, $lightness: -60%) !global
+  // $background: scale-color($gray-accent-dark, $lightness: -60%) !global
+  // $body-color: $primary-invert !global
 
 .layout-children
   background: $gray-accent-dark
@@ -25,36 +28,37 @@ $family-primary: "Fira Code", $family-sans-serif
 .navbar-logo
   height: 50px
   width: 50px
-  fill: red !important
-  color: green !important
 
-.margin-top-0
-  margin-top: 0 !important
-
-.full-width-image-container
-  width: 100vw
-  height: 400px
+.hero
+  min-height: 700px
+  height: 60vh
+  overflow: hidden
+  background: $gray-accent-dark
   position: relative
-  left: 50%
-  right: 50%
-  margin: 2em -50vw
-  background-size: cover
-  background-position: bottom
-  display: flex
-  justify-content: center
-  align-items: center
 
-.full-width-image
-  width: 100vw
-  height: 400px
+.hero-body
+  background-image: url(/img/blog-hero.jpeg)
+  background-position: center
   background-size: cover
-  background-position: bottom
-  display: flex
-  justify-content: center
-  align-items: center
+  background-repeat: no-repeat
+  padding: 0 !important
+  clip-path: polygon(0 0, 80% 0%, 70% 100%, 0% 100%)
 
-// @media (prefers-color-scheme: dark)
-//   .layout-children
-//     background: scale-color($gray-accent-dark, $lightness: -90%)
+.hero-cutout
+  position: absolute
+  top: 0
+  right: 0
+  left: 0
+  bottom: 0
+  display: flex
+  justify-content: flex-end
+  align-items: flex-end
+  font-size: 3rem
+  font-weight: bold
+  flex-direction: column
+  padding-right: $gap
+
+.blog-columns
+  padding: $gap
 
 @import "~bulma"
