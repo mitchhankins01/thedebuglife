@@ -10,10 +10,10 @@ const Index = () => {
         <div className="column is-4">
           <div style={{ height: "50vh", background: "red" }} />
         </div>
-        <div className="column is-5">
+        <div className="column is-4">
           <div style={{ height: "50vh", background: "orange" }} />
         </div>
-        <div className="column is-3">
+        <div className="column is-2">
           <div className="card">
             {/* <div className="card-image">
               <figure className="image is-2by1">
