@@ -13,9 +13,13 @@ const Hero = () => {
       <div className="hero-body"></div>
       <div className="hero-cutout">
         <div>
-          {/* <Logo className="hero-logo" alt="theDebugLife" /> */}
-          <p>the</p>
-          <p>Debug Life</p>
+          <div className="block">
+            <Logo className="hero-logo" alt="theDebugLife" />
+          </div>
+          <div className="block">
+            <p>the</p>
+            <p>Debug Life</p>
+          </div>
         </div>
       </div>
     </section>
@@ -73,5 +77,3 @@ const TemplateWrapper = ({ children }) => {
 };
 
 export default TemplateWrapper;
-
-// adskfjaklsdj fl;kjsaddfk jasdlkfj asdkljflaksjf lkasdj flkasdjflkasdjdl;kf jasddlkfjasdlkf jals;dkjf kalsddjflkasdjkasdjfkasdj kasdkf j
