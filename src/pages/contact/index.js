@@ -7,7 +7,6 @@ function encode(data) {
     .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
     .join("&");
 }
-
 export default class Index extends React.Component {
   constructor(props) {
     super(props);

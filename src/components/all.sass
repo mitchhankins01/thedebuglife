@@ -5,10 +5,10 @@ $gray-accent-dark: #CFD8DC
 $gray-accent-light: #DEE5E8
 
 $primary: #2E7D32
-$primary-invert: $gray-accent-light
+$primary-invert: #43A047
 $body-color: #263238
 $background: $gray-accent-dark
-$link: red
+$link: $primary-invert
 $family-primary: "Fira Code", $family-sans-serif
 
 @media (prefers-color-scheme: dark)
@@ -66,5 +66,17 @@ $family-primary: "Fira Code", $family-sans-serif
 
 .blog-columns
   padding: $gap
+
+.subscribe-card
+  // padding-left: 80px !important
+  max-width: 350px !important
+  margin-left: auto
+
+.card
+  background: $gray-accent-light !important
+
+.email-button
+  width: 100%
+  margin-top: calc($gap / 3)
 
 @import "~bulma"

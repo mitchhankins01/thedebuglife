@@ -1,118 +1,223 @@
 import * as React from "react";
 
 import Layout from "../../components/Layout";
+import Facebook from "../../img/social/facebook.svg";
+import GitHub from "../../img/social/github.svg";
+import Instagram from "../../img/social/instagram.svg";
+import LinkedIn from "../../img/social/linkedin.svg";
+import TikTok from "../../img/social/tiktok.svg";
+import Twitter from "../../img/social/twitter.svg";
+import YouTube from "../../img/social/youtube.svg";
 // import BlogRoll from "../../components/BlogRoll";
 
+function encode(data) {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+}
 const Index = () => {
+  const [loading, setLoading] = React.useState(false);
+  const [formState, setFormState] = React.useState({ isValidated: false });
+
+  const handleChange = (e) => {
+    setFormState({ ...formState, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    setLoading(true);
+    e.preventDefault();
+    const form = e.target;
+
+    fetch("/.netlify/functions/newsletter", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({
+        "form-name": form.getAttribute("name"),
+        ...formState,
+      }),
+    })
+      .then(() => setLoading(false))
+      .catch(() => setLoading(false));
+  };
+
   return (
     <Layout>
       <div className="columns blog-columns">
-        <div className="column is-4">
-          <div style={{ height: "50vh", background: "red" }} />
-        </div>
-        <div className="column is-4">
-          <div style={{ height: "50vh", background: "orange" }} />
-        </div>
-        <div className="column is-2">
+        <div className="column">
           <div className="card">
-            {/* <div className="card-image">
+            <div className="card-image">
               <figure className="image is-2by1">
                 <img
-                  src="https://bulma.io/images/placeholders/640x320.png"
+                  src="http://www.morninggloryantiques.com/imagesJC/Articles/Cmas/hedy.jpg"
                   alt="Placeholder image"
                 />
               </figure>
-            </div> */}
+            </div>
             <header className="card-header">
-              <p className="card-header-title">Title of Post</p>
+              <p className="card-header-title is-size-5">Title of Post</p>
             </header>
             <div className="card-content">
               <div className="content">
                 TAGS Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Phasellus nec iaculis mauris. TAGS
                 <br />
-                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                <time dateTime="2016-1-1">11:09 PM - 1 Jan 2016</time>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </Layout>
-  );
-  return (
-    <Layout>
-      <div className="tile is-ancestor blog-tile">
-        <div className="tile is-vertical is-8">
-          <div className="tile">
-            <div className="tile is-parent is-vertical">
-              <article className="tile is-4 box">
-                <p className="title">Hello World1</p>
-                <p className="subtitle">What is up?</p>
-                <div className="content">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Proin ornare magna eros, eu pellentesque tortor vestibulum
-                    ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
-                    facilisis.
-                  </p>
-                </div>
-              </article>
-              <article className="tile is-child box">
-                <p className="title">Hello World2</p>
-                <p className="subtitle">What is up?</p>
-                <div className="content">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Proin ornare magna eros, eu pellentesque tortor vestibulum
-                    ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
-                    facilisis.
-                  </p>
-                </div>
-              </article>
+        <div className="column">
+          <div className="card">
+            <div className="card-image">
+              <figure className="image is-2by1">
+                <img
+                  src="http://www.morninggloryantiques.com/imagesJC/Articles/Cmas/hedy.jpg"
+                  alt="Placeholder image"
+                />
+              </figure>
             </div>
-            <div className="tile is-parent">
-              <article className="tile is-child box">
-                <p className="title">Hello World3</p>
-                <p className="subtitle">What is up?</p>
-                <div className="content">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Proin ornare magna eros, eu pellentesque tortor vestibulum
-                    ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
-                    facilisis.
-                  </p>
-                </div>
-              </article>
-            </div>
-          </div>
-          <div className="tile is-parent">
-            <article className="tile is-child box">
-              <p className="title">Hello World4</p>
-              <p className="subtitle">What is up?</p>
+            <header className="card-header">
+              <p className="card-header-title is-size-5">Title of Post</p>
+            </header>
+            <div className="card-content">
               <div className="content">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                  ornare magna eros, eu pellentesque tortor vestibulum ut.
-                  Maecenas non massa sem. Etiam finibus odio quis feugiat
-                  facilisis.
-                </p>
+                TAGS Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. TAGS
+                <br />
+                <time dateTime="2016-1-1">11:09 PM - 1 Jan 2016</time>
               </div>
-            </article>
+            </div>
           </div>
         </div>
-        <div className="tile is-parent">
-          <article className="tile is-child box">
-            <p className="title">Hello World5</p>
-            <p className="subtitle">What is up2?</p>
-            <div className="content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                ornare magna eros, eu pellentesque tortor vestibulum ut.
-                Maecenas non massa sem. Etiam finibus odio quis feugiat
-                facilisis.
+        <div className="column subscribe-card">
+          <div className="card">
+            <header className="card-header">
+              <p className="card-header-title is-size-5">
+                Follow Mitch on Social
               </p>
+            </header>
+            <div className="card-content">
+              <div className="content is-flex is-justify-content-space-between">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.facebook.com/thedebuglife"
+                >
+                  <Facebook />
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.github.com/mitchhankins01"
+                >
+                  <GitHub />
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.instagram.com/thedebuglife"
+                >
+                  <Instagram />
+                </a>
+              </div>
+              <div className="content is-flex is-justify-content-space-between">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/thedebuglife"
+                >
+                  <LinkedIn />
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.tiktok.com/@thedebuglife"
+                >
+                  <TikTok />
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.twitter.com/thedebuglife"
+                >
+                  <Twitter />
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.youtube.com/channel/UCcnj9gzdYe2a_sxLY3clmag"
+                >
+                  <YouTube />
+                </a>
+              </div>
             </div>
-          </article>
+            <header className="card-header">
+              <p className="card-header-title is-size-5">
+                Subscribe to Newsletter
+              </p>
+            </header>
+            <div className="card-content">
+              <div className="content">
+                <form
+                  name="email"
+                  method="post"
+                  data-netlify="true"
+                  data-netlify-honeypot="bot-field"
+                  onSubmit={handleSubmit}
+                >
+                  {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+                  <input type="hidden" name="form-name" value="email" />
+                  <div hidden>
+                    <label>
+                      Don’t fill this out:{" "}
+                      <input name="bot-field" onChange={handleChange} />
+                    </label>
+                  </div>
+                  <div className="field">
+                    <label className="label" htmlFor={"name"}>
+                      Name:
+                    </label>
+                    <div className="control">
+                      <input
+                        disabled={loading}
+                        className="input"
+                        type={"text"}
+                        name={"name"}
+                        onChange={handleChange}
+                        id={"name"}
+                        required={true}
+                      />
+                    </div>
+                  </div>
+                  <div className="field">
+                    <label className="label" htmlFor={"email"}>
+                      Email:
+                    </label>
+                    <div className="control">
+                      <input
+                        disabled={loading}
+                        className="input"
+                        type={"email"}
+                        name={"email"}
+                        onChange={handleChange}
+                        id={"email"}
+                        required={true}
+                      />
+                    </div>
+                  </div>
+                  <div className="field">
+                    <button
+                      disabled={loading}
+                      className="button is-link email-button"
+                      type="submit"
+                    >
+                      {loading ? "Subscribing" : "Sign Up"}
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </Layout>

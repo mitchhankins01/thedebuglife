@@ -6,6 +6,7 @@
   "author": "Mitch Hankins",
   "dependencies": {
     "@fontsource/fira-code": "^4.5.9",
+    "@mailchimp/mailchimp_marketing": "^3.0.75",
     "bulma": "^0.9.4",
     "gatsby": "^4.15.2",
     "gatsby-plugin-disqus": "^1.2.4",
