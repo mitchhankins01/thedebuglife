@@ -67,6 +67,17 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: "gatsby-remark-embed-video",
+            options: {
+              width: 800,
+              related: false,
+              noIframeBorder: true, //Optional: Disable insertion of <style> border: 0
+              loadingStrategy: "lazy", //Optional: Enable support for lazy-load offscreen iframes. Default is disabled.
+              containerClass: "embedVideo-container",
+            },
+          },
+          `gatsby-remark-responsive-iframe`,
+          {
             resolve: "gatsby-remark-relative-images",
             options: {
               name: "uploads",

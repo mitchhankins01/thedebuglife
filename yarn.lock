@@ -9580,6 +9580,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-remark-embed-video@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "gatsby-remark-embed-video@npm:3.1.1"
+  dependencies:
+    get-video-id: ^3.1.9
+    remark-burger: ^1.0.1
+    unist-util-visit: ^2.0.3
+  checksum: a5042fff739afd78b997143effeb2f2021abbc3a11256bb0dbdf9515b7bb6712e0334844270d5f58136051bf7d7985d29a2078fabb0f2eb9f4c15d4ad56c2fb5
+  languageName: node
+  linkType: hard
+
 "gatsby-remark-images@npm:^6.15.1":
   version: 6.15.1
   resolution: "gatsby-remark-images@npm:6.15.1"
@@ -9614,6 +9625,21 @@ __metadata:
     slash: ^2.0.0
     unist-util-select: ^1.5.0
   checksum: 0c63a996892bbf4aae12297eeced63fb2811eccaf69af0f603d21671a3089b477e2c1763fc5e8513aae877bc26de7246a6360c020c9b8cc4780790c0c4fc8cf1
+  languageName: node
+  linkType: hard
+
+"gatsby-remark-responsive-iframe@npm:^5.15.0":
+  version: 5.15.0
+  resolution: "gatsby-remark-responsive-iframe@npm:5.15.0"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    cheerio: ^1.0.0-rc.10
+    common-tags: ^1.8.2
+    lodash: ^4.17.21
+    unist-util-visit: ^2.0.3
+  peerDependencies:
+    gatsby: ^4.0.0-next
+  checksum: 165118ad61547510fa8b98da42e000379783da4f1d529e7b08ae898e8e0f87dbf9732dfb9d1eb24316dcf89894d110ddcae455b4de96c75a45c0a0317f591689
   languageName: node
   linkType: hard
 
@@ -10046,6 +10072,13 @@ __metadata:
     call-bind: ^1.0.2
     get-intrinsic: ^1.1.1
   checksum: 9ceff8fe968f9270a37a1f73bf3f1f7bda69ca80f4f80850670e0e7b9444ff99323f7ac52f96567f8b5f5fbe7ac717a0d81d3407c7313e82810c6199446a5247
+  languageName: node
+  linkType: hard
+
+"get-video-id@npm:^3.1.9":
+  version: 3.6.4
+  resolution: "get-video-id@npm:3.6.4"
+  checksum: 3f4eef46c999c41c1d09da2e8c83a32e45a6c9c71ec1980c0a7151d004c561349b962c9e0a241437f8d99107d4cf0172d5e1b64ace0d5513de3a74d48f770260
   languageName: node
   linkType: hard
 
@@ -17722,6 +17755,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"remark-burger@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "remark-burger@npm:1.0.1"
+  checksum: d1248fed6f5bc2b5b6d2cfe65c63b78251a498bae6816de98a8f56682e0d39e2fcfeb3e9c0539c314505dde250be72d922f37722e1b7e7e8a4fe5d61a527082f
+  languageName: node
+  linkType: hard
+
 "remark-footnotes@npm:^3.0.0":
   version: 3.0.0
   resolution: "remark-footnotes@npm:3.0.0"
@@ -19707,8 +19747,10 @@ __metadata:
     gatsby-plugin-sass: ^5.15.1
     gatsby-plugin-sharp: ^4.15.1
     gatsby-remark-copy-linked-files: ^5.15.0
+    gatsby-remark-embed-video: ^3.1.1
     gatsby-remark-images: ^6.15.1
     gatsby-remark-relative-images: ^0.3.0
+    gatsby-remark-responsive-iframe: ^5.15.0
     gatsby-source-filesystem: ^4.15.0
     gatsby-transformer-remark: ^5.15.1
     gatsby-transformer-sharp: ^4.15.1

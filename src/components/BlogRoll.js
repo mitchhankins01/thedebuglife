@@ -33,13 +33,12 @@ const BlogRollTemplate = ({ data, countdown }) => {
                   className="card-header"
                   style={{
                     height: 80,
-                    textOverflow: "ellipsis",
                     overflow: "hidden",
                     display: "flex",
                     alignItems: "flex-start",
                   }}
                 >
-                  <p className="card-header-title is-size-5">
+                  <p className="card-header-title is-size-6">
                     {post.frontmatter.title}
                   </p>
                 </header>
@@ -47,11 +46,11 @@ const BlogRollTemplate = ({ data, countdown }) => {
                   <div
                     className="content"
                     style={{
-                      height: 200,
-                      textOverflow: "ellipsis",
                       overflow: "hidden",
+                      textOverflow: "ellipsis",
                       display: "flex",
                       alignItems: "flex-start",
+                      lineClamp: 1,
                     }}
                   >
                     {post.excerpt}

@@ -9,6 +9,7 @@ import TikTok from "../../img/social/tiktok.svg";
 import Twitter from "../../img/social/twitter.svg";
 import YouTube from "../../img/social/youtube.svg";
 import BlogRoll from "../../components/BlogRoll";
+import Hero from "../../components/Hero";
 
 function encode(data) {
   return Object.keys(data)
@@ -42,6 +43,7 @@ const Index = () => {
 
   return (
     <Layout>
+      <Hero />
       <div className="columns blog-columns">
         <div className="column">
           <BlogRoll />
@@ -76,6 +78,7 @@ const Index = () => {
                 >
                   <Instagram />
                 </a>
+                <a style={{ fontSize: "2rem" }}>🙈</a>
               </div>
               <div className="content is-flex is-justify-content-space-between">
                 <a

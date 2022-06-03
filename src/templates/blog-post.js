@@ -6,6 +6,7 @@ import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import { Disqus } from "gatsby-plugin-disqus";
+import Hero from "../components/Hero";
 
 // eslint-disable-next-line
 export const BlogPostTemplate = ({
@@ -61,6 +62,7 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout>
+      <Hero imageInfo={{ image: post.frontmatter.featuredimage }} />
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
@@ -111,6 +113,15 @@ export const pageQuery = graphql`
         title
         description
         tags
+        featuredimage {
+          childImageSharp {
+            gatsbyImageData(
+              quality: 100
+              layout: FULL_WIDTH
+              placeholder: BLURRED
+            )
+          }
+        }
       }
     }
   }
