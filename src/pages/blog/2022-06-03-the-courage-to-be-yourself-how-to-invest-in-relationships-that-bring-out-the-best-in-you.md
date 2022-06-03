@@ -5,7 +5,7 @@ title: "The Courage to Be Yourself: How to Invest in Relationships that Bring
 date: 2022-06-03T11:28:47.862Z
 description: Descripton text
 featuredpost: true
-featuredimage: https://images.unsplash.com/photo-1654216818693-30c2820c0801?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3088&q=80
+featuredimage: /img/photo-1654216818693-30c2820c0801.avif
 ---
 ##### Not living up to your potential
 
