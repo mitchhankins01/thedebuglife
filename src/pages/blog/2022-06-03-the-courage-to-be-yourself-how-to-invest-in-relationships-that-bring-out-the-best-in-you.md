@@ -5,7 +5,7 @@ title: "The Courage to Be Yourself: How to Invest in Relationships that Bring
 date: 2022-06-03T11:28:47.862Z
 description: Descripton text
 featuredpost: true
-featuredimage: /img/photo-1654216818693-30c2820c0801.avif
+featuredimage: /img/loren-cutler-pa0852tauyu-unsplash.jpg
 ---
 ##### Not living up to your potential
 
