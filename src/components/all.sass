@@ -22,7 +22,6 @@ $family-primary: "Fira Code", $family-sans-serif
   background: $gray-accent-dark
 
 .navbar-logo-link
-  padding: 0 !important
   pointer-events: none
 
 .navbar-logo
@@ -67,16 +66,31 @@ $family-primary: "Fira Code", $family-sans-serif
 .blog-columns
   padding: $gap
 
-.subscribe-card
-  // padding-left: 80px !important
+.subscribe-column
   max-width: 350px !important
   margin-left: auto
+
+.subscribe-card
+  height: 605px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
 
 .card
   background: $gray-accent-light !important
 
 .email-button
   width: 100%
-  margin-top: calc($gap / 3)
+  margin-top: calc($gap / 1)
+
+.blog-read-more-link
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: $block-spacing
+  padding-top: 0
+
+.image.is-2by1
+  padding-top: 36% !important
 
 @import "~bulma"
