@@ -35,6 +35,7 @@ const Hero = () => {
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
+  console.log(title, description);
   return (
     <div>
       <Helmet>
