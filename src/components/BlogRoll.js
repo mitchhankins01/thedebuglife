@@ -12,7 +12,7 @@ const BlogRollTemplate = ({ data, countdown }) => {
         posts.map(({ node: post }) => (
           <div className="is-parent column is-6" key={post.id}>
             <Link to={post.fields.slug}>
-              <div className="card" style={{ height: 605 }}>
+              <div className="card blog-card">
                 <div className="card-image">
                   {post.frontmatter.featuredimage && (
                     <PreviewCompatibleImage
@@ -59,9 +59,7 @@ const BlogRollTemplate = ({ data, countdown }) => {
                 </div>
                 <div className="blog-read-more-link">
                   <time dateTime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                  <Link className="button is-outlined" to={post.fields.slug}>
-                    Keep Reading →
-                  </Link>
+                  <button className="button is-outlined">Keep Reading →</button>
                 </div>
               </div>
             </Link>

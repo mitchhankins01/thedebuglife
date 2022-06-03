@@ -4,21 +4,28 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "./all.sass";
 import useSiteMetadata from "./SiteMetadata";
-import { withPrefix } from "gatsby";
+import { withPrefix, graphql } from "gatsby";
 import Logo from "../img/logo.svg";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Hero = () => {
   return (
     <section className="hero">
-      <div className="hero-body"></div>
-      <div className="hero-cutout">
-        <div>
-          <div className="block">
-            <Logo className="hero-logo" alt="theDebugLife" />
-          </div>
-          <div className="block">
-            <p>the</p>
-            <p>Debug Life</p>
+      <div className="hero-body" style={{ padding: "0 0 50px 0" }}>
+        <figure className="image">
+          <StaticImage
+            alt="banner image"
+            src="../img/blog-hero.jpeg"
+            layout="fullWidth"
+            placeholder="dominantColor"
+            style={{ height: "100%", maxHeight: "60vh" }}
+          />
+        </figure>
+        <div className="hero-cutout">
+          <Logo className="hero-logo" alt="theDebugLife" />
+          <div>
+            <span className="is-size-3 is-size-5-mobile">the</span>
+            <h1 className="title is-size-2 is-size-5-mobile">Debug Life</h1>
           </div>
         </div>
       </div>

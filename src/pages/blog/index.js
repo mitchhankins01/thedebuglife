@@ -53,7 +53,7 @@ const Index = () => {
                 Follow Mitch on Social
               </p>
             </header>
-            <div className="card-content">
+            <div className="card-content blog-card-content">
               <div className="content is-flex is-justify-content-space-between">
                 <a
                   target="_blank"
@@ -113,7 +113,7 @@ const Index = () => {
                 Subscribe to Newsletter
               </p>
             </header>
-            <div className="card-content">
+            <div className="card-content blog-card-content">
               <div className="content">
                 <form
                   name="email"

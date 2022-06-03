@@ -21,50 +21,48 @@ $family-primary: "Fira Code", $family-sans-serif
 .layout-children
   background: $gray-accent-dark
 
+.navbar-main-link
+  color: white !important
+
 .navbar-logo-link
   pointer-events: none
+  fill: white
 
 .navbar-logo
   height: 50px
   width: 50px
 
-.hero
-  min-height: 700px
-  height: 60vh
+.hero-body
   overflow: hidden
   background: $gray-accent-dark
   position: relative
 
-.hero-body
-  background-image: url(/img/blog-hero.jpeg)
-  background-position: center
-  background-size: cover
-  background-repeat: no-repeat
-  padding: 0 !important
-  clip-path: polygon(0 0, 80% 0%, 70% 100%, 0% 100%)
-
 .hero-cutout
   position: absolute
-  top: 0
+  background: $gray-accent-dark
   right: 0
-  left: 0
-  bottom: 50px
+  top: 0
+  bottom: calc(1em + $gap - 2px)
   display: flex
-  justify-content: flex-end
-  align-items: flex-end
-  font-size: 3rem
-  font-weight: bold
   flex-direction: column
-  padding-right: $gap
+  justify-content: flex-end
+  padding-bottom: $block-spacing
+  padding-right: $block-spacing
+  padding-left: calc($block-spacing * 5)
+  clip-path: polygon(99% 0, 100% 0, 100% 100%, 0% 100%)
 
 .hero-logo
   fill: $primary
-  width: 100%
-  height: 100%
-  margin-bottom: -118px
+  // width: 100%
+  height: 200px
+  margin-bottom: -40px
 
 .blog-columns
-  padding: $gap
+  padding: $block-spacing
+  padding-top: 0 !important
+
+.blog-card
+  height: 605px
 
 .subscribe-column
   max-width: 350px !important
@@ -94,3 +92,45 @@ $family-primary: "Fira Code", $family-sans-serif
   padding-top: 36% !important
 
 @import "~bulma"
+
++mobile
+  .hero-cutout
+    top: auto
+    right: calc($block-spacing - 6px)
+    left: calc($block-spacing - 6px)
+    justify-content: center
+    align-items: center
+    padding-bottom: 0
+    padding-left: 0
+    padding-top: calc($gap / 2)
+    clip-path: polygon(35% 0, 65% 0, 100% 100%, 0% 100%)
+
+  .hero-logo
+    height: 100px
+    margin-bottom: -20px
+
+  .subscribe-column
+    max-width: 100vw !important
+    margin-left: 0
+
+  .blog-card
+    height: auto
+
+  .blog-card-content
+    // padding: 0 80px
+    margin: 0 $block-spacing
+
++tablet-only
+  .hero-cutout
+    top: auto
+    right: calc($block-spacing - 6px)
+    left: calc($block-spacing - 6px)
+    justify-content: center
+    align-items: center
+    padding-left: 0
+    padding-top: calc($gap * 1)
+    clip-path: polygon(35% 0, 65% 0, 100% 100%, 0% 100%)
+
+  .hero-logo
+    height: 200px
+    margin-bottom: -36px

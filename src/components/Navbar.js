@@ -46,7 +46,7 @@ const Navbar = () => {
           ].map(({ to, label }) => (
             <Link
               key={to}
-              className={`navbar-item ${
+              className={`navbar-item navbar-main-link ${
                 pathname.replace(/\//g, "") === to.replace(/\//g, "")
                   ? "is-active"
                   : ""
@@ -56,8 +56,8 @@ const Navbar = () => {
               {label}
             </Link>
           ))}
-          <div className="navbar-item has-dropdown is-hoverable">
-            <a className="navbar-link" href="/#">
+          <div className="navbar-item has-dropdown is-hoverable navbar-main-link">
+            <a className="navbar-link navbar-main-link" href="/#">
               More
             </a>
 
@@ -72,8 +72,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <div className="navbar-item">
             <div className="buttons">
-              <button className="button is-primary">Sign Up</button>
-              <a className="button is-light" href="/#">
+              <a className="button is-light is-outlined" href="/#">
                 Log in
               </a>
             </div>
