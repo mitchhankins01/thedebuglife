@@ -78,7 +78,6 @@ const Index = () => {
                 >
                   <Instagram />
                 </a>
-                <a style={{ fontSize: "2rem" }}>🙈</a>
               </div>
               <div className="content is-flex is-justify-content-space-between">
                 <a

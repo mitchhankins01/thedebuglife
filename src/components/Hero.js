@@ -3,7 +3,6 @@ import Logo from "../img/logo.svg";
 import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
 
 const Hero = ({ imageInfo }) => {
-  console.log(1);
   return (
     <section className="hero">
       <div className="hero-body" style={{ padding: "0 0 50px 0" }}>
