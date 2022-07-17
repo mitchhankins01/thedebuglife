@@ -4,7 +4,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: "The Debug Life",
-    description: "Build a community to support your journey of self discovery.",
+    description: "Find the courage to be you and community will find you.",
     siteUrl: "https://thedebuglife.com",
   },
   plugins: [
@@ -141,8 +141,11 @@ module.exports = {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.nodes.map((node) => {
                 return Object.assign({}, node.frontmatter, {
-                  description: node.excerpt,
+                  excerpt: node.excerpt,
+                  description: node.frontmatter.description,
                   date: node.frontmatter.date,
+                  tags: node.frontmatter.tags,
+                  featuredimage: node.frontmatter.featuredimage.relativePath,
                   url: site.siteMetadata.siteUrl + node.fields.slug,
                   guid: site.siteMetadata.siteUrl + node.fields.slug,
                   custom_elements: [{ "content:encoded": node.html }],
@@ -163,6 +166,11 @@ module.exports = {
                     frontmatter {
                       title
                       date
+                      description
+                      tags
+                      featuredimage {
+                        relativePath
+                      }
                     }
                   }
                 }
