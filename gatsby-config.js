@@ -146,7 +146,7 @@ module.exports = {
                   date: node.frontmatter.date,
                   tags: node.frontmatter.tags,
                   featuredimage:
-                    node.frontmatter.featuredimage.relativePath || "",
+                    node.frontmatter?.featuredimage?.relativePath || "",
                   url: site.siteMetadata.siteUrl + node.fields.slug,
                   guid: site.siteMetadata.siteUrl + node.fields.slug,
                   custom_elements: [{ "content:encoded": node.html }],
