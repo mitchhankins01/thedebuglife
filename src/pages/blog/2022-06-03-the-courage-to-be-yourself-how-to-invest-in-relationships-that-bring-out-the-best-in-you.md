@@ -6,7 +6,13 @@ date: 2022-06-03T11:28:47.862Z
 description: Descripton text
 featuredpost: true
 featuredimage: /img/loren-cutler-pa0852tauyu-unsplash.jpg
+tags:
+  - jamaica
+  - green beans
+  - flavor
+  - tasting
 ---
+
 `youtube: https://www.youtube.com/watch?v=2Xc9gXyf2G4`
 
 ##### Not living up to your potential

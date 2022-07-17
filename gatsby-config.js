@@ -5,6 +5,7 @@ module.exports = {
   siteMetadata: {
     title: "The Debug Life",
     description: "Build a community to support your journey of self discovery.",
+    siteUrl: "https://thedebuglife.com",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
