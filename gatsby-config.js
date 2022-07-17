@@ -145,7 +145,8 @@ module.exports = {
                   description: node.frontmatter.description,
                   date: node.frontmatter.date,
                   tags: node.frontmatter.tags,
-                  featuredimage: node.frontmatter.featuredimage.relativePath,
+                  featuredimage:
+                    node.frontmatter.featuredimage.relativePath || "",
                   url: site.siteMetadata.siteUrl + node.fields.slug,
                   guid: site.siteMetadata.siteUrl + node.fields.slug,
                   custom_elements: [{ "content:encoded": node.html }],
