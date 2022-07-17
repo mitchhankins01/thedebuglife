@@ -168,6 +168,7 @@ module.exports = {
                 }
               }
             `,
+            match: "^/blog/",
             output: "/rss.xml",
             title: "the Debug Life Blog RSS Feed",
           },
