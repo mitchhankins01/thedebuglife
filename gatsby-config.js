@@ -141,22 +141,29 @@ module.exports = {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.nodes.map((node) => {
                 return Object.assign({}, node.frontmatter, {
-                  excerpt: node.excerpt,
-                  description: node.frontmatter.description,
+                  description: node.excerpt,
                   date: node.frontmatter.date,
-                  tags: node.frontmatter.tags,
-                  featuredimage:
-                    node.frontmatter?.featuredimage?.relativePath || "",
                   url: site.siteMetadata.siteUrl + node.fields.slug,
                   guid: site.siteMetadata.siteUrl + node.fields.slug,
-                  custom_elements: [{ "content:encoded": node.html }],
+                  custom_elements: [
+                    { "content:encoded": node.html },
+                    { excerpt: node.frontmatter.excerpt },
+                    { tags: node.frontmatter.tags?.join(",") || "" },
+                    {
+                      image:
+                        site.siteMetadata.siteUrl +
+                          node.frontmatter.featuredimage?.childImageSharp?.fixed
+                            ?.src || "",
+                    },
+                  ],
                 });
               });
             },
             query: `
               {
                 allMarkdownRemark(
-                  sort: { order: DESC, fields: [frontmatter___date] },
+                  sort: {order: DESC, fields: [frontmatter___date]}
+                  filter: {fields: {slug: {regex: "^/blog/"}}}
                 ) {
                   nodes {
                     excerpt
@@ -170,7 +177,11 @@ module.exports = {
                       description
                       tags
                       featuredimage {
-                        relativePath
+                        childImageSharp {
+                          fixed {
+                            src
+                          }
+                        }
                       }
                     }
                   }
@@ -179,7 +190,7 @@ module.exports = {
             `,
             match: "^/blog/",
             output: "/rss.xml",
-            title: "the Debug Life Blog RSS Feed",
+            title: "the Debug Life",
           },
         ],
       },
