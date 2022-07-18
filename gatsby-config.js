@@ -145,6 +145,9 @@ module.exports = {
                   date: node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + node.fields.slug,
                   guid: site.siteMetadata.siteUrl + node.fields.slug,
+                  custom_namespaces: {
+                    media: "http://search.yahoo.com/mrss/",
+                  },
                   custom_elements: [
                     { "content:encoded": node.html },
                     { excerpt: node.frontmatter.excerpt },
