@@ -56,7 +56,7 @@ const Navbar = () => {
               {label}
             </Link>
           ))}
-          <div className="navbar-item has-dropdown is-hoverable navbar-main-link">
+          {/* <div className="navbar-item has-dropdown is-hoverable navbar-main-link">
             <a className="navbar-link navbar-main-link" href="/#">
               More Options
             </a>
@@ -66,17 +66,17 @@ const Navbar = () => {
                 Contact
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="navbar-end">
-          <div className="navbar-item">
+          {/* <div className="navbar-item">
             <div className="buttons">
-              <a className="button is-light is-outlined" href="/#">
+              <a className="button is-light is-outlined is" href="/#">
                 Log in
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>
