@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import { useLocation } from "@reach/router";
-import Logo from "../img/logo.svg";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Navbar = () => {
   const { pathname } = useLocation();
@@ -20,9 +20,9 @@ const Navbar = () => {
       aria-label="main navigation"
     >
       <div className="navbar-brand">
-        <Link to="/" className="navbar-item navbar-logo-link" title="Logo">
-          <Logo className="navbar-logo" alt="theDebugLife" />
-        </Link>
+        <div className="navbar-logo-container">
+          <StaticImage alt="logo" src="../img/logo_light.png" />
+        </div>
 
         <div
           className={`navbar-burger burger ${navBarActiveClass}`}

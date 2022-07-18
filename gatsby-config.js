@@ -3,7 +3,7 @@ require("dotenv").config({
 });
 module.exports = {
   siteMetadata: {
-    title: "The Debug Life",
+    title: "the Debug Life",
     description: "Find the courage to be you and community will find you.",
     siteUrl: "https://thedebuglife.com",
   },
@@ -45,13 +45,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `TheDebugLife`,
-        short_name: `TheDebugLife`,
+        name: `theDebugLife`,
+        short_name: `theDebugLife`,
         start_url: `/`,
-        background_color: `#2E7D32`,
+        background_color: `#43A047`,
         theme_color: `#43A047`,
         display: `standalone`,
-        icon: `src/img/logo.svg`,
+        icon: `src/img/logo.png`,
       },
     },
     `gatsby-plugin-offline`,
