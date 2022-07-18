@@ -150,10 +150,23 @@ module.exports = {
                     { excerpt: node.frontmatter.excerpt },
                     { tags: node.frontmatter.tags?.join(",") || "" },
                     {
-                      image:
-                        site.siteMetadata.siteUrl +
-                          node.frontmatter.featuredimage?.childImageSharp?.fixed
-                            ?.src || "",
+                      "media:content": [
+                        {
+                          _attr: {
+                            medium: "image",
+                            isDefault: "true",
+                            expression: "full",
+                            url:
+                              site.siteMetadata.siteUrl +
+                                node.frontmatter.featuredimage?.childImageSharp
+                                  ?.fixed?.src || "",
+                            src:
+                              site.siteMetadata.siteUrl +
+                                node.frontmatter.featuredimage?.childImageSharp
+                                  ?.fixed?.src || "",
+                          },
+                        },
+                      ],
                     },
                   ],
                 });
