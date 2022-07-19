@@ -5,6 +5,7 @@ $gray-accent-dark: #CFD8DC
 $gray-accent-light: #DEE5E8
 
 $primary: #2E7D32
+$primary-light: #43A047
 $primary-invert: #43A047
 $body-color: #263238
 $background: $gray-accent-dark
@@ -22,46 +23,44 @@ html
   background-color: $gray-accent-dark !important
 
 .layout-children
-  background: $gray-accent-dark
+  background: $gray-accent-dark !important
 
 .navbar-main-link
   color: #fff !important
 
-.navbar-logo-container
-  height: 46px
-  width: 56px
-  display: flex
-  justify-content: center
-  align-items: center
-  margin: 10px 0px 10px 0px
+// .navbar-logo-container
+//   height: 46px
+//   width: 56px
+//   display: flex
+//   justify-content: center
+//   align-items: center
+//   margin: 10px 0px 10px 0px
 
 .hero
-  height: 700px
-  margin-bottom: $block-spacing
+  height: 900px
+  background: red !important
+  margin-bottom: calc($block-spacing * 1)
 
 .hero-body
   background: $gray-accent-dark
-  position: relative
   padding: 0 !important
+  position: relative
 
 .hero-cutout
-  position: absolute
   background: $gray-accent-dark
+  position: absolute
+  width: 400px
+  height: 400px
   right: 0
-  top: 0
   bottom: 0
   display: flex
   flex-direction: column
+  align-items: center
   justify-content: flex-end
-  padding-bottom: 0
-  padding-right: $block-spacing
-  padding-left: calc($block-spacing * 5)
-  clip-path: polygon(99% 0, 100% 0, 100% 100%, 0% 100%)
 
 .hero-logo
-  width: 220px
-  margin-bottom: -40px
-  margin-left: 30px
+  width: 320px
+  transform: translateY(10%)
 
 .blog-columns
   padding: $block-spacing
@@ -103,20 +102,20 @@ html
 @import "~bulma"
 
 +mobile
-  .hero-cutout
-    top: auto
-    right: calc($block-spacing - 6px)
-    left: calc($block-spacing - 6px)
-    justify-content: center
-    align-items: center
-    padding-bottom: 0
-    padding-left: 0
-    padding-top: calc($gap / 2)
-    clip-path: polygon(35% 0, 65% 0, 100% 100%, 0% 100%)
+  // .hero-cutout
+  //   top: auto
+  //   right: calc($block-spacing - 6px)
+  //   left: calc($block-spacing - 6px)
+  //   justify-content: center
+  //   align-items: center
+  //   padding-bottom: 0
+  //   padding-left: 0
+  //   padding-top: calc($gap / 2)
+  //   clip-path: polygon(35% 0, 65% 0, 100% 100%, 0% 100%)
 
-  .hero-logo
-    width: 150px
-    margin-bottom: -20px
+  // .hero-logo
+  //   width: 150px
+  //   margin-bottom: -20px
 
   .subscribe-column
     max-width: 100vw !important
@@ -130,16 +129,16 @@ html
     margin: 0 $block-spacing
 
 +tablet-only
-  .hero-cutout
-    top: auto
-    right: calc($block-spacing - 6px)
-    left: calc($block-spacing - 6px)
-    justify-content: center
-    align-items: center
-    padding-left: 0
-    padding-top: calc($gap * 1)
-    clip-path: polygon(35% 0, 65% 0, 100% 100%, 0% 100%)
+  // .hero-cutout
+  //   top: auto
+  //   right: calc($block-spacing - 6px)
+  //   left: calc($block-spacing - 6px)
+  //   justify-content: center
+  //   align-items: center
+  //   padding-left: 0
+  //   padding-top: calc($gap * 1)
+  //   clip-path: polygon(35% 0, 65% 0, 100% 100%, 0% 100%)
 
-  .hero-logo
-    height: 200px
-    margin-bottom: -36px
+  // .hero-logo
+  //   height: 200px
+  //   margin-bottom: -36px

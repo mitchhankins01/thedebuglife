@@ -14,6 +14,7 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
         image={image.childImageSharp.gatsbyImageData}
         style={imageStyle}
         alt={alt}
+        placeholder="dominantColor"
         className="image is-2by1"
       />
     );
@@ -23,6 +24,7 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
         image={childImageSharp.gatsbyImageData}
         style={imageStyle}
         alt={alt}
+        placeholder="dominantColor"
       />
     );
     // for Netlify CMS

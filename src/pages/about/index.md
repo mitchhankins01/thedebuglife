@@ -1,19 +1,143 @@
 ---
-templateKey: 'about-page'
+templateKey: "about-page"
 path: /about
-title: About our values
+title: About Mitch Hankins
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Put some text here
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+### Social Media
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+Social Media here
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+### Projects
+
+<a href="https://www.divytracker.com/" target="_blank">Divy - Dividend Tracker</a>
+
+> A SaaS product I built in order to automate the tracking of dividend income.
+
+### Seeking Alpha Articles
+
+<a href="https://seekingalpha.com/article/4461982-long-realty-income-for-the-long-game" target="_blank">Long Realty Income For The Long Game</a>
+
+> Realty Income is one of the strongest REITs you can buy.
+
+> The company has an incredibly strong balance sheet and is well positioned in an “exuberant” market, whether the market keeps rising or comes tumbling down.
+
+> O will survive and thrive during inflationary periods.
+
+> The company has a highly experienced management team with a proven track record.
+
+> <a href="https://seekingalpha.com/article/4461982-long-realty-income-for-the-long-game" target="_blank">Continue Reading →</a>
+
+---
+
+<a href="https://seekingalpha.com/article/4466014-doubling-down-on-w-p-carey" target="_blank">Doubling Down On W. P. Carey</a>
+
+> WPC is likely to benefit from inflation.
+
+> WPC is well diversified geographically and by sector.
+
+> WPC has a strong balance sheet and an investment-grade rating.
+
+> <a href="https://seekingalpha.com/article/4466014-doubling-down-on-w-p-carey" target="_blank">Continue Reading →</a>
+
+---
+
+<a href="https://seekingalpha.com/article/4471078-its-showtime-for-epr-properties" target="_blank">It's Showtime For EPR Properties</a>
+
+> EPR is in a strong financial position.
+
+> EPR navigated the crisis with prudence.
+
+> EPR has plenty upside as life returns to normalcy and pays out a solid dividend.
+
+> <a href="https://seekingalpha.com/article/4471078-its-showtime-for-epr-properties" target="_blank">Continue Reading →</a>
+
+---
+
+<a href="https://seekingalpha.com/article/4472297-whitestone-reit-is-a-buy-opportunity" target="_blank">Whitestone REIT Is A Buy Opportunity</a>
+
+> High debt and management compensation have put downward pressure on the value of WSR stock.
+
+> Management has a lot of skin in the game and it is in their interest to reduce debt and G&A expenses.
+
+> WSR benefits from "the great tech exodus".
+
+> <a href="https://seekingalpha.com/article/4472297-whitestone-reit-is-a-buy-opportunity" target="_blank">Continue Reading →</a>
+
+---
+
+<a href="https://seekingalpha.com/article/4474969-store-capital-is-a-buying-opportunity" target="_blank">STORE Capital Corporation Is A Buying Opportunity</a>
+
+> STOR is in a strong financial position.
+
+> STOR has a unique moat in the market.
+
+> Fears over inflation reducing the profitability of the net lease sector present us with a buying opportunity.
+
+> <a href="https://seekingalpha.com/article/4474969-store-capital-is-a-buying-opportunity" target="_blank">Continue Reading →</a>
+
+---
+
+<a href="https://seekingalpha.com/article/4476098-vici-properties-is-not-a-gamble" target="_blank">VICI Properties Is Not A Gamble</a>
+
+> VICI has a strong moat.
+
+> VICI is well positioned against inflation.
+
+> VICI is a strong buy opportunity.
+
+> <a href="https://seekingalpha.com/article/4476098-vici-properties-is-not-a-gamble" target="_blank">Continue Reading →</a>
+
+---
+
+<a href="https://seekingalpha.com/article/4477005-national-retail-properties-time-to-bargain-shop" target="_blank">National Retail Properties: Time To Bargain Shop</a>
+
+> NNN has a fortress balance sheet and low debt.
+
+> NNN has a unique business model.
+
+> NNN is a worthy dividend payer.
+
+> <a href="https://seekingalpha.com/article/4477005-national-retail-properties-time-to-bargain-shop" target="_blank">Continue Reading →</a>
+
+---
+
+<a href="https://seekingalpha.com/article/4477951-i-am-buying-macerich-properties" target="_blank">I Am Buying Macerich Properties</a>
+
+> Management is addressing debt issue.
+
+> Mixed-use facilitates are underrated.
+
+> MAC is discounted due to fear and misperception.
+
+> <a href="https://seekingalpha.com/article/4477951-i-am-buying-macerich-properties" target="_blank">Continue Reading →</a>
+
+---
+
+<a href="https://seekingalpha.com/article/4478826-i-am-bullish-avalonbay-communities-avb-buy" target="_blank">I Am Bullish On AvalonBay Communities</a>
+
+> AVB has an investment-grade balance sheet.
+
+> AVB is well diversified geographically and by property type.
+
+> AVB has a large development pipeline.
+
+> <a href="https://seekingalpha.com/article/4478826-i-am-bullish-avalonbay-communities-avb-buy" target="_blank">Continue Reading →</a>
+
+---
+
+<a href="https://seekingalpha.com/article/4480241-high-yielding-multifamily-armada-hoffler-properties" target="_blank">High Yielding Multifamily Armada Hoffler Properties</a>
+
+> AHH has a sound balance sheet.
+
+> AHH management is well aligned with shareholder interest.
+
+> AHH has a unique edge by geographical focus on development expertise.
+
+> <a href="https://seekingalpha.com/article/4480241-high-yielding-multifamily-armada-hoffler-properties" target="_blank">Continue Reading →</a>
+
+---
+
+<a href="https://seekingalpha.com/author/mitch-hankins" target="_blank">All Seeking Alpha Articles</a>

@@ -10,13 +10,16 @@ import Twitter from "../../img/social/twitter.svg";
 import YouTube from "../../img/social/youtube.svg";
 import BlogRoll from "../../components/BlogRoll";
 import Hero from "../../components/Hero";
+import { graphql } from "gatsby";
+import { getImage } from "gatsby-plugin-image";
 
 function encode(data) {
   return Object.keys(data)
     .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
     .join("&");
 }
-const Index = () => {
+const Index = ({ data }) => {
+  console.log("data", data);
   const [loading, setLoading] = React.useState(false);
   const [formState, setFormState] = React.useState({ isValidated: false });
 
@@ -40,10 +43,9 @@ const Index = () => {
       .then(() => setLoading(false))
       .catch(() => setLoading(false));
   };
-
   return (
     <Layout>
-      <Hero />
+      <Hero location="blog" />
       <div className="columns blog-columns">
         <div className="column">
           <BlogRoll />
@@ -184,3 +186,11 @@ const Index = () => {
 };
 
 export default Index;
+
+export const pageQuery = graphql`
+  query BlogPageQuery {
+    imageSharp(original: { src: { regex: "/blog-hero/" } }) {
+      gatsbyImageData(quality: 100, layout: FULL_WIDTH, placeholder: BLURRED)
+    }
+  }
+`;
