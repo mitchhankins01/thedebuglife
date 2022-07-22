@@ -55,6 +55,7 @@ const Index = ({ data }) => {
         alert("Error, something went wrong.");
       });
   };
+
   return (
     <Layout>
       <Hero location="blog" />
@@ -76,21 +77,21 @@ const Index = ({ data }) => {
                   rel="noopener noreferrer"
                   href="https://www.facebook.com/thedebuglife"
                 >
-                  <Facebook />
+                  <Facebook alt="facebook" />
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.github.com/mitchhankins01"
                 >
-                  <GitHub />
+                  <GitHub alt="github" />
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.instagram.com/thedebuglife"
                 >
-                  <Instagram />
+                  <Instagram alt="instagram" />
                 </a>
               </div>
               <div className="content is-flex is-justify-content-space-between">
@@ -99,28 +100,28 @@ const Index = ({ data }) => {
                   rel="noopener noreferrer"
                   href="https://www.linkedin.com/in/thedebuglife"
                 >
-                  <LinkedIn />
+                  <LinkedIn alt="linkedin" />
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.tiktok.com/@thedebuglife"
                 >
-                  <TikTok />
+                  <TikTok alt="tiktok" />
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.twitter.com/thedebuglife"
                 >
-                  <Twitter />
+                  <Twitter alt="twitter" />
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.youtube.com/channel/UCcnj9gzdYe2a_sxLY3clmag"
                 >
-                  <YouTube />
+                  <YouTube alt="youtube" />
                 </a>
               </div>
             </div>
@@ -184,7 +185,7 @@ const Index = ({ data }) => {
                     <div className="field">
                       <button
                         disabled={loading}
-                        className="button is-link email-button"
+                        className="button email-button"
                         type="submit"
                       >
                         {loading ? "Subscribing" : "Sign Up"}
