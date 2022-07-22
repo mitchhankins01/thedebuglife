@@ -73,6 +73,7 @@ const Index = ({ data }) => {
             <div className="card-content blog-card-content">
               <div className="content is-flex is-justify-content-space-between">
                 <a
+                  aria-label="facebook"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.facebook.com/thedebuglife"
@@ -80,6 +81,7 @@ const Index = ({ data }) => {
                   <Facebook alt="facebook" />
                 </a>
                 <a
+                  aria-label="github"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.github.com/mitchhankins01"
@@ -87,6 +89,7 @@ const Index = ({ data }) => {
                   <GitHub alt="github" />
                 </a>
                 <a
+                  aria-label="instagram"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.instagram.com/thedebuglife"
@@ -97,6 +100,7 @@ const Index = ({ data }) => {
               <div className="content is-flex is-justify-content-space-between">
                 <a
                   target="_blank"
+                  aria-label="linkedin"
                   rel="noopener noreferrer"
                   href="https://www.linkedin.com/in/thedebuglife"
                 >
@@ -105,12 +109,14 @@ const Index = ({ data }) => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="tiktok"
                   href="https://www.tiktok.com/@thedebuglife"
                 >
                   <TikTok alt="tiktok" />
                 </a>
                 <a
                   target="_blank"
+                  aria-label="twitter"
                   rel="noopener noreferrer"
                   href="https://www.twitter.com/thedebuglife"
                 >
@@ -118,6 +124,7 @@ const Index = ({ data }) => {
                 </a>
                 <a
                   target="_blank"
+                  aria-label="youtube"
                   rel="noopener noreferrer"
                   href="https://www.youtube.com/channel/UCcnj9gzdYe2a_sxLY3clmag"
                 >
