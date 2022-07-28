@@ -67,7 +67,7 @@ const Index = ({ data }) => {
           <div className="card subscribe-card">
             <header className="card-header">
               <p className="card-header-title is-size-5">
-                Follow Mitch on Social
+                Connect with Mitch on Social Media
               </p>
             </header>
             <div className="card-content blog-card-content">
@@ -134,7 +134,8 @@ const Index = ({ data }) => {
             </div>
             <header className="card-header">
               <p className="card-header-title is-size-5">
-                Subscribe to Newsletter
+                Get the 2022 React Developer Roadmap for FREE by subscribing to
+                the newsletter
               </p>
             </header>
             <div className="card-content blog-card-content">

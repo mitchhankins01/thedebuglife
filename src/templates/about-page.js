@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
-import { StaticImage } from "gatsby-plugin-image";
 import Hero from "../components/Hero";
 
 // eslint-disable-next-line
