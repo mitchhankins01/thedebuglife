@@ -29,35 +29,14 @@ const BlogRollTemplate = ({ data, countdown }) => {
                     />
                   )}
                 </div>
-                <header
-                  className="card-header"
-                  style={{
-                    height: 80,
-                    overflow: "hidden",
-                    display: "flex",
-                    alignItems: "flex-start",
-                  }}
-                >
-                  <p className="card-header-title is-size-6">
-                    {post.frontmatter.title}
+                <header className="card-header">
+                  <p className="card-header-title">{post.frontmatter.title}</p>
+                  <p className="card-header-title is-size-7 pt-0">
+                    {post.frontmatter.date}
                   </p>
                 </header>
-                <div className="card-content">
-                  <div
-                    className="content"
-                    style={{
-                      overflow: "hidden",
-                      textOverflow: "ellipsis",
-                      display: "flex",
-                      alignItems: "flex-start",
-                      lineClamp: 1,
-                    }}
-                  >
-                    {post.excerpt}
-                  </div>
-                </div>
+                <div className="card-content">{post.excerpt}</div>
                 <div className="blog-read-more-link">
-                  <time dateTime="2016-1-1">11:09 PM - 1 Jan 2016</time>
                   <button className="button is-outlined">Keep Reading →</button>
                 </div>
               </div>

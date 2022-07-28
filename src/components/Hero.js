@@ -6,7 +6,7 @@ const Hero = ({ imageInfo, location }) => {
   return (
     <section className="hero">
       <div className="hero-body">
-        <figure className="image">
+        <figure className="image hero-image">
           {location === "blog" && (
             <StaticImage
               alt="banner image"
@@ -14,7 +14,6 @@ const Hero = ({ imageInfo, location }) => {
               layout="fullWidth"
               objectPosition="top center"
               placeholder="dominantColor"
-              style={{ height: 900 }}
             />
           )}
           {location === "about" && (
@@ -24,13 +23,11 @@ const Hero = ({ imageInfo, location }) => {
               layout="fullWidth"
               objectPosition="top center"
               placeholder="dominantColor"
-              style={{ height: 900 }}
             />
           )}
           {imageInfo && (
             <GatsbyImage
               image={imageInfo.image.childImageSharp.gatsbyImageData}
-              style={{ height: 900 }}
             />
           )}
         </figure>

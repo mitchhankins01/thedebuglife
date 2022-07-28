@@ -28,23 +28,14 @@ html
 .navbar-main-link
   color: #fff !important
 
-// .navbar-logo-container
-//   height: 46px
-//   width: 56px
-//   display: flex
-//   justify-content: center
-//   align-items: center
-//   margin: 10px 0px 10px 0px
-
-.hero
-  height: 900px
-  background: red !important
-  margin-bottom: calc($block-spacing * 1)
-
 .hero-body
-  background: $gray-accent-dark
   padding: 0 !important
+  // relative position required for the cutout
   position: relative
+
+.hero-image
+  height: 90vh
+  overflow: hidden
 
 .hero-cutout
   background: $gray-accent-dark
@@ -58,20 +49,42 @@ html
   align-items: center
   justify-content: flex-end
 
+.reverseMe {
+    @include until($tablet) {
+        flex-direction: row-reverse;
+        display: flex;
+    }
+}
+  
 .hero-logo
   width: 320px
   transform: translateY(10%)
 
 .blog-columns
-  padding: $block-spacing
-  padding-top: 0 !important
+  margin: 0 !important
 
 .blog-card
   height: 100%
 
+.card-header
+  overflow: hidden
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  justify-content: space-around
+  box-shadow: 0 !important
+
+.card-content
+  overflow: hidden
+  text-overflow: ellipsis
+  display: flex
+  align-items: flex-start
+  lineClamp: 1
+
 .subscribe-column
-  max-width: 350px !important
-  margin-left: auto
+  display: none
+  // max-width: 350px !important
+  // margin-left: auto
 
 .subscribe-card
   // height: 605px
@@ -91,7 +104,6 @@ html
   align-items: center
   justify-content: space-between
   padding: $block-spacing
-  padding-top: 0
 
 .image.is-2by1
   padding-top: 36% !important
@@ -102,43 +114,20 @@ html
 @import "~bulma"
 
 +mobile
-  // .hero-cutout
-  //   top: auto
-  //   right: calc($block-spacing - 6px)
-  //   left: calc($block-spacing - 6px)
-  //   justify-content: center
-  //   align-items: center
-  //   padding-bottom: 0
-  //   padding-left: 0
-  //   padding-top: calc($gap / 2)
-  //   clip-path: polygon(35% 0, 65% 0, 100% 100%, 0% 100%)
-
-  // .hero-logo
-  //   width: 150px
-  //   margin-bottom: -20px
+  .blog-read-more-link
+    display: flex
+    flex-direction: column
+    align-items: flex-start
 
   .subscribe-column
-    max-width: 100vw !important
-    margin-left: 0
+    // max-width: 100vw !important
+    // margin-left: 0
 
   .blog-card
     height: auto
 
   .blog-card-content
     // padding: 0 80px
-    margin: 0 $block-spacing
+    // margin: 0 $block-spacing
 
 +tablet-only
-  // .hero-cutout
-  //   top: auto
-  //   right: calc($block-spacing - 6px)
-  //   left: calc($block-spacing - 6px)
-  //   justify-content: center
-  //   align-items: center
-  //   padding-left: 0
-  //   padding-top: calc($gap * 1)
-  //   clip-path: polygon(35% 0, 65% 0, 100% 100%, 0% 100%)
-
-  // .hero-logo
-  //   height: 200px
-  //   margin-bottom: -36px
