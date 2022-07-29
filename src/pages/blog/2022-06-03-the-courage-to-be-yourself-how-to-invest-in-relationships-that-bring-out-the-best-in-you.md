@@ -1,9 +1,10 @@
 ---
 templateKey: blog-post
-title: "The Courage to Be Yourself: How to Invest in Relationships that Bring
-  Out the Best in You"
+title: "**TEST** The Courage to Be Yourself: How to Invest in Relationships that
+  Bring Out the Best in You"
 date: 2022-06-03T11:28:47.862Z
-description: Do you ever feel like you're not quite living up to your potential? Do you feel like you're holding yourself back in some way?
+description: Do you ever feel like you're not quite living up to your potential?
+  Do you feel like you're holding yourself back in some way?
 featuredpost: true
 featuredimage: /img/loren-cutler-pa0852tauyu-unsplash.jpg
 tags:
@@ -11,6 +12,7 @@ tags:
   - do
   - believe
 ---
+# TEST
 
 `youtube: https://www.youtube.com/watch?v=2Xc9gXyf2G4`
 
