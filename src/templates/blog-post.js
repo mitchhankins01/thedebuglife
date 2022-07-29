@@ -131,7 +131,16 @@ const BlogPost = ({ data }) => {
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet
+            title={post.frontmatter.title}
+            titleTemplate="%s | Blog"
+            link={[
+              {
+                rel: "canonical",
+                href: `https://thedebuglife.com${post.fields.slug}`,
+              },
+            ]}
+          >
             <title>{`${post.frontmatter.title}`}</title>
             {/* <meta name="image" content={post.frontmatter.featuredimage} /> */}
             <script type="application/ld+json">
