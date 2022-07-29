@@ -7,10 +7,9 @@ description: Descripton text
 featuredpost: true
 featuredimage: /img/loren-cutler-pa0852tauyu-unsplash.jpg
 tags:
-  - jamaica
-  - green beans
-  - flavor
-  - tasting
+  - dream
+  - do
+  - believe
 ---
 
 `youtube: https://www.youtube.com/watch?v=2Xc9gXyf2G4`
