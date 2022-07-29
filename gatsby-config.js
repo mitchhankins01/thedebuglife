@@ -12,9 +12,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-sass",
       options: {
-        sassOptions: {
-          implementation: require("node-sass"),
-        },
+        sassOptions: {},
       },
     },
     {
