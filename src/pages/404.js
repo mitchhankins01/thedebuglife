@@ -1,14 +1,26 @@
 import * as React from "react";
+import { navigate } from "@reach/router";
 import Layout from "../components/Layout";
+import FourOhFour from "../img/social/c404.svg";
 
 const NotFoundPage = () => (
   <Layout>
-    <div style={{ color: "#fff" }}>
-      <h1 style={{ color: "#fff" }}>NOT FOUND</h1>
-      <p style={{ color: "#fff" }}>
-        You just hit a route that doesn&#39;t exist... the sadness.
-      </p>
-    </div>
+    <section className="hero is-link">
+      <div className="hero-body">
+        <div className="container has-text-centered">
+          <FourOhFour
+            onClick={() => navigate(-1)}
+            alt="gorgeous 404 image"
+            className="image-404"
+          />
+          <p className="title">404</p>
+          <p className="subtitle">you know what this means...</p>
+          <button class="button" onClick={() => navigate(-1)}>
+            Click here to pop back
+          </button>
+        </div>
+      </div>
+    </section>
   </Layout>
 );
 

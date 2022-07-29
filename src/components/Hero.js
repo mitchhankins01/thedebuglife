@@ -1,5 +1,4 @@
 import React from "react";
-// import Logo from "../img/logo.svg";
 import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
 
 const Hero = ({ imageInfo, location }) => {

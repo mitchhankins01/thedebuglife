@@ -1,0 +1,140 @@
+// https://bulma.io/documentation/customize/variables/
+@import "~bulma/sass/utilities/initial-variables";
+
+$gray-accent-dark: #cfd8dc;
+$gray-accent-light: #dee5e8;
+//REMOVE STYLES
+
+$primary: #2e7d32;
+$primary-light: #43a047;
+$primary-invert: #43a047;
+$body-color: #263238;
+$background: $gray-accent-dark;
+$link: $primary-invert;
+$family-primary: "Fira Code", $family-sans-serif;
+
+// @media (prefers-color-scheme: dark)
+//   $gray-accent-light: scale-color($gray-accent-light, $lightness: 100%) !global
+//   $gray-accent-dark: scale-color($gray-accent-dark, $lightness: -90%) !global
+//   $primary: scale-color($primary, $lightness: -60%) !global
+//   $background: scale-color($gray-accent-dark, $lightness: -60%) !global
+//   $body-color: $primary-invert !global
+
+html {
+  background-color: $gray-accent-dark !important;
+}
+.layout-children {
+  background: $gray-accent-dark !important;
+}
+.navbar-main-link {
+  color: #fff !important;
+}
+
+// .hero-body {
+//   padding: 0 !important;
+//   // relative position required for the cutout
+//   position: relative;
+// }
+
+.hero-image {
+  height: 90vh;
+  overflow: hidden;
+}
+
+.hero-cutout {
+  background: $gray-accent-dark;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.hero-logo {
+  width: 320px;
+  transform: translateY(10%);
+}
+
+.blog-columns {
+  margin: 0 !important;
+}
+
+.blog-card {
+  height: 100%;
+}
+
+.card-header {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  box-shadow: 0 !important;
+}
+
+.card-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: flex-start;
+  line-clamp: 1;
+}
+
+.subscribe-column {
+  display: none;
+}
+
+.subscribe-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card {
+  background: $gray-accent-light !important;
+}
+
+.email-button {
+  width: 100%;
+  margin-top: calc($gap / 1);
+}
+
+.blog-read-more-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $block-spacing;
+}
+
+.image.is-2by1 {
+  padding-top: 36% !important;
+}
+
+.footer {
+  background: $gray-accent-light !important;
+}
+
+.image-404 {
+  height: 40vh;
+  background: $gray-accent-dark !important;
+  padding: $block-spacing;
+  margin-bottom: $block-spacing;
+}
+
+@import "~bulma";
+
+@include mobile {
+  .blog-read-more-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .blog-card {
+    height: auto;
+  }
+}
