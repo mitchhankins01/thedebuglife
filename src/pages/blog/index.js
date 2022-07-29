@@ -70,7 +70,7 @@ const Index = ({ data }) => {
                 Connect with Mitch on Social Media
               </p>
             </header>
-            <div className="card-content blog-card-content">
+            <div className="card-content">
               <div className="content is-flex is-justify-content-space-between">
                 <a
                   aria-label="facebook"

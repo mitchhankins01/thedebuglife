@@ -19,14 +19,6 @@ const Navbar = () => {
       aria-label="main navigation"
     >
       <div className="navbar-brand">
-        {/* <div className="navbar-logo-container">
-          <StaticImage
-            alt="logo"
-            src="../img/logo_light.png"
-            placeholder="dominantColor"
-          />
-        </div> */}
-
         <div
           className={`navbar-burger burger ${navBarActiveClass}`}
           data-target="navMenu"

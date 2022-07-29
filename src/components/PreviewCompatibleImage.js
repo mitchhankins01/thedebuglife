@@ -15,7 +15,7 @@ const PreviewCompatibleImage = ({ imageInfo }) => {
         style={imageStyle}
         alt={alt}
         placeholder="dominantColor"
-        className="image is-2by1"
+        className="image is-3by2"
       />
     );
   } else if (!!childImageSharp) {

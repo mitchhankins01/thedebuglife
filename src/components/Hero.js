@@ -31,7 +31,12 @@ const Hero = ({ imageInfo, location }) => {
           )}
         </figure>
         <div className="hero-cutout">
-          <StaticImage alt="logo" className="hero-logo" src="../img/logo.png" />
+          <StaticImage
+            alt="logo"
+            className="hero-logo"
+            src="../img/logo.png"
+            objectFit="contain"
+          />
           <div>
             <span className="has-text-primary-light is-size-4 is-size-5-mobile">
               the

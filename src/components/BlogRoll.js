@@ -31,7 +31,7 @@ const BlogRollTemplate = ({ data, countdown }) => {
                 </div>
                 <header className="card-header">
                   <p className="card-header-title">{post.frontmatter.title}</p>
-                  <p className="card-header-title is-size-7 pt-0">
+                  <p className="card-header-title is-size-7 mt-0 pt-0">
                     {post.frontmatter.date}
                   </p>
                 </header>

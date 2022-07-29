@@ -23,35 +23,33 @@ $family-primary: "Fira Code", $family-sans-serif;
 html {
   background-color: $gray-accent-dark !important;
 }
+
 .layout-children {
   background: $gray-accent-dark !important;
 }
+
 .navbar-main-link {
   color: #fff !important;
 }
 
-// .hero-body {
-//   padding: 0 !important;
-//   // relative position required for the cutout
-//   position: relative;
-// }
-
-.hero-image {
-  height: 90vh;
+.hero-body {
+  // relative position required for the cutout
+  position: relative;
+  padding: 0 !important;
+  height: 70vh;
   overflow: hidden;
 }
 
 .hero-cutout {
   background: $gray-accent-dark;
   position: absolute;
-  width: 400px;
-  height: 400px;
   right: 0;
   bottom: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  overflow: hidden;
 }
 
 .hero-logo {
@@ -60,7 +58,7 @@ html {
 }
 
 .blog-columns {
-  margin: 0 !important;
+  margin: $block-spacing !important;
 }
 
 .blog-card {
@@ -85,7 +83,7 @@ html {
 }
 
 .subscribe-column {
-  display: none;
+  max-width: 330px;
 }
 
 .subscribe-card {
@@ -100,7 +98,6 @@ html {
 
 .email-button {
   width: 100%;
-  margin-top: calc($gap / 1);
 }
 
 .blog-read-more-link {
@@ -128,8 +125,28 @@ html {
 @import "~bulma";
 
 @include mobile {
+  .navbar-menu {
+    background: $primary-light !important;
+  }
+
+  .navbar-burger {
+    color: white !important;
+  }
+
+  .navbar-item.is-active {
+    background-color: $primary-dark !important;
+  }
+
+  .hero-cutout {
+    left: 0px;
+    height: 30vh;
+  }
+
+  .hero-logo {
+    transform: translateY(13.5%);
+  }
+
   .blog-read-more-link {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
