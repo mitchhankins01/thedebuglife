@@ -8,6 +8,61 @@ import Content, { HTMLContent } from "../components/Content";
 import { Disqus } from "gatsby-plugin-disqus";
 import Hero from "../components/Hero";
 
+const getSchemaOrgJSONLD = ({ url, title, image, description, date }) => {
+  return [
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      url,
+      name: title,
+      alternateName: "the Debug Life",
+    },
+    {
+      "@context": "https://thedebuglife.com",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          item: {
+            "@id": url,
+            name: title,
+            image,
+          },
+        },
+      ],
+    },
+    {
+      "@context": "https://thedebuglife.com",
+      "@type": "BlogPosting",
+      url,
+      name: title,
+      alternateName: "the Debug Life",
+      headline: title,
+      image: {
+        "@type": "ImageObject",
+        url: image,
+      },
+      description,
+      author: {
+        "@type": "Person",
+        name: "Mitch Hankins",
+      },
+      publisher: {
+        "@type": "Organization",
+        url: "https://thedebuglife.com",
+        logo: "https://thedebuglife.com/img/logo.png",
+        name: "Mitch Hankins",
+      },
+      mainEntityOfPage: {
+        "@type": "WebSite",
+        "@id": "https://thedebuglife.com",
+      },
+      date,
+    },
+  ];
+};
+
 // eslint-disable-next-line
 export const BlogPostTemplate = ({
   content,
@@ -60,6 +115,14 @@ BlogPostTemplate.propTypes = {
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data;
 
+  const schemaOrgJSONLD = getSchemaOrgJSONLD({
+    url: `https://thedebuglife.com${post.fields.slug}`,
+    title: post.frontmatter.title,
+    image: post.frontmatter.featuredimage,
+    description: post.frontmatter.description,
+    date: post.frontmatter.date,
+  });
+
   return (
     <Layout>
       <Hero imageInfo={{ image: post.frontmatter.featuredimage }} />
@@ -70,6 +133,20 @@ const BlogPost = ({ data }) => {
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
+            {/* <meta name="image" content={post.frontmatter.featuredimage} /> */}
+            <script type="application/ld+json">
+              {JSON.stringify(schemaOrgJSONLD)}
+            </script>
+            <meta property="og:type" content="article" />
+            <meta property="og:title" content={post.frontmatter.title} />
+            <meta
+              property="og:description"
+              content={post.frontmatter.description}
+            />
+            {/* <meta
+              property="og:image"
+              content={post.frontmatter.featuredimage}
+            /> */}
             <meta
               name="description"
               content={`${post.frontmatter.description}`}
@@ -108,6 +185,9 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
+      fields {
+        slug
+      }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title

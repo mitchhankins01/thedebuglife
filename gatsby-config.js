@@ -10,6 +10,12 @@ module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
     {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        excludes: ["/admin", "/admin/*", "/contact", "/contact/*"],
+      },
+    },
+    {
       resolve: "gatsby-plugin-sass",
       options: {
         sassOptions: {},

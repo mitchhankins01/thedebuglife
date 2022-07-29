@@ -26,6 +26,7 @@ const Hero = ({ imageInfo, location }) => {
           )}
           {imageInfo && (
             <GatsbyImage
+              alt="banner image"
               image={imageInfo.image.childImageSharp.gatsbyImageData}
             />
           )}
