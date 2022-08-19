@@ -10,16 +10,7 @@ description: "Loneliness is a topic that is often left unspoken. In our society,
   our well-being. "
 featuredpost: true
 ---
-<!--
-P: Loneliness can kill
-S: Get connected and find your community
-P: I don't have the courage
-A: Interact with me and tDL
--->
-
-# Can loneliness kill you?
-
-Loneliness is a topic that is often left unspoken. In our society, men opening up about their feelings is seen as weakness, and thus many feel ashamed to talk about it. But what if loneliness could actually harm us? What if we're not talking about it enough? Studies have shown that it can seriously impact our health and that community and social interactions are crucial for our well-being. 
+`youtube: https://www.youtube.com/watch?v=2Xc9gXyf2G4`
 
 When I was younger, I often felt shot down whenever I tried to open up about my feelings. I felt the only person I could actually *talk* to was my mom. The stoic Dutch culture I grew up in, the military, and my teenage years all seemed to teach me one lesson: **Don't be weak. Suck it up and keep pushing forward**. I benefited much from this mentality as I ruthlessly grew my career and physical health. But working hard only distracted me from what truly matters and resulted in chronic feelings of loneliness. Everything started changing when I finally found the courage to speak up for myself.
 
@@ -54,6 +45,8 @@ In order to address chronic feelings of loneliness, you must first acknowledge t
 The most obvious option is to seek social support with members of your family, friends, and community members, such as a church or a meetup group. The only thing that truly matters is that you feel accepted and supported. Find the courage to completely embrace yourself within a community of people that does the same and makes you feel needed. If you think you lack social support, you should consider providing it instead. Research shows giving support may relieve just as much stress as receiving it and doing so will lay the foundation for future relationships.
 
 What helped me most, and what I urge you to do most, is to talk about your feelings with people who have earned your trust. Men especially are less likely to talk because we are taught that showing vulnerability is a weakness. In my past, loneliness and nihilism were frequent companions. My damaging beliefs about myself held me back from truly connecting with others, and I felt as though my body was in a perpetual state of flight-or-fight. Due to my experiences in life, reaching out for help wasn't an option. The moment change truly showed in my life was when I started to implement balance. At this point, I had put in a good bit of effort to grow my friendships by being a good friend and providing support whenever those close to me needed it. Instead of isolating myself, I started reaching out when I least felt like it. I was in awe of the responses I received. Friends made me feel seen and heard. When you feel lonely, reach out and talk to someone. Their response might surprise you. If you don't have anyone you feel comfortable reaching out to, I welcome you to send me a message.
+
+Subscribe to my newsletter to receive updates on future blog posts.
 
 ## Resources
 
