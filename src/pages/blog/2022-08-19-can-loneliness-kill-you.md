@@ -9,6 +9,7 @@ description: "Loneliness is a topic that is often left unspoken. In our society,
   impact our health and that community and social interactions are crucial for
   our well-being. "
 featuredpost: true
+featuredimage: https://images.unsplash.com/photo-1509923261489-fd580b2d9051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2971&q=80
 ---
 `youtube: https://www.youtube.com/watch?v=2Xc9gXyf2G4`
 
