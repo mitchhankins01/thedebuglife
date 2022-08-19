@@ -11,7 +11,7 @@ description: "Loneliness is a topic that is often left unspoken. In our society,
 featuredpost: true
 featuredimage: https://images.unsplash.com/photo-1509923261489-fd580b2d9051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2971&q=80
 ---
-`youtube: https://www.youtube.com/watch?v=2Xc9gXyf2G4`
+`youtube: https://www.youtube.com/watch?v=i1n2RI0vXoU`
 
 When I was younger, I often felt shot down whenever I tried to open up about my feelings. I felt the only person I could actually *talk* to was my mom. The stoic Dutch culture I grew up in, the military, and my teenage years all seemed to teach me one lesson: **Don't be weak. Suck it up and keep pushing forward**. I benefited much from this mentality as I ruthlessly grew my career and physical health. But working hard only distracted me from what truly matters and resulted in chronic feelings of loneliness. Everything started changing when I finally found the courage to speak up for myself.
 
