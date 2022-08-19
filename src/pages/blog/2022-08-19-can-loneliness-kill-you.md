@@ -10,6 +10,11 @@ description: "Loneliness is a topic that is often left unspoken. In our society,
   our well-being. "
 featuredpost: true
 featuredimage: https://images.unsplash.com/photo-1509923261489-fd580b2d9051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2971&q=80
+tags:
+  - dream
+  - belong
+  - believe
+  - pause
 ---
 `youtube: https://www.youtube.com/watch?v=i1n2RI0vXoU`
 
