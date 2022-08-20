@@ -48,13 +48,15 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   overflow: hidden;
+  padding-top: calc($block-spacing / 2);
+  border-top-left-radius: 5px;
 }
 
 .hero-logo {
-  width: 320px;
-  transform: translateY(10%);
+  height: 280px;
+  width: 280px;
 }
 
 .blog-columns {
@@ -83,7 +85,7 @@ html {
 }
 
 .subscribe-column {
-  max-width: 330px;
+  max-width: 350px;
 }
 
 .subscribe-card {
@@ -143,11 +145,11 @@ html {
 
   .hero-cutout {
     left: 0px;
-    height: 30vh;
+    height: 20vh;
   }
 
   .hero-logo {
-    transform: translateY(13.5%);
+    transform: translateY(22%);
   }
 
   .blog-read-more-link {

@@ -35,17 +35,9 @@ const Hero = ({ imageInfo, location }) => {
           <StaticImage
             alt="logo"
             className="hero-logo"
-            src="../img/logo.png"
+            src="../img/hero-logo.png"
             objectFit="contain"
           />
-          <div>
-            <span className="has-text-primary-light is-size-4 is-size-5-mobile">
-              the
-            </span>
-            <h1 className="has-text-primary title is-size-2 is-size-5-mobile">
-              Debug Life
-            </h1>
-          </div>
         </div>
       </div>
     </section>
