@@ -15,7 +15,7 @@ const NotFoundPage = () => (
           />
           <p className="title">404</p>
           <p className="subtitle">you know what this means...</p>
-          <button class="button" onClick={() => navigate(-1)}>
+          <button className="button" onClick={() => navigate(-1)}>
             Click here to pop back
           </button>
         </div>

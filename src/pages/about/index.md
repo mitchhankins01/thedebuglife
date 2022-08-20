@@ -1,14 +1,22 @@
 ---
 templateKey: "about-page"
 path: /about
-title: About Mitch Hankins
+title: About Mitch
 ---
 
-Put some text here
+Mitch Hankins is a cloud-certified full-stack developer who speaks to professionals who struggle to find meaning in life. He has developed his expertise by working with some of the largest organizations in the US, including Nasdaq and the US Military. With over a decade of professional experience, Mitch noticed he and his colleagues often struggled with feelings of isolation. This often led to an unfulfilled life where complacency and loneliness were the norms. Mitch can help any engineer with feelings of loneliness to experience a fuller and more connected life.
 
 ### Social Media
 
-Social Media here
+[Facebook](https://www.facebook.com/thedebuglife)
+
+[GitHub](https://www.github.com/mitchhankins01)
+
+[Instagram](https://www.instagram.com/thedebuglife)
+
+[LinkedIn](https://www.linkedin.com/in/thedebuglife)
+
+[YouTube](https://www.youtube.com/channel/UCcnj9gzdYe2a_sxLY3clmag)
 
 ### Projects
 

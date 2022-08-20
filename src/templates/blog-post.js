@@ -7,6 +7,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import { Disqus } from "gatsby-plugin-disqus";
 import Hero from "../components/Hero";
+import Newsletter from "../components/Newsletter";
 
 const getSchemaOrgJSONLD = ({ url, title, image, description, date }) => {
   return [
@@ -165,6 +166,15 @@ const BlogPost = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
+      <section className="section">
+        <div className="container content">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <Newsletter />
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="section">
         <div className="container content">
           <div className="columns">
