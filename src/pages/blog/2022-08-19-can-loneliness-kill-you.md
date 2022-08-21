@@ -18,6 +18,11 @@ tags:
 ---
 `youtube: https://www.youtube.com/watch?v=i1n2RI0vXoU`
 
+<Helmet>
+<p>Listen to the podcast version of this blog:</p>
+<div id="buzzsprout-player-11171201"></div><script src="https://www.buzzsprout.com/2037301/11171201-can-loneliness-kill-you.js?container_id=buzzsprout-player-11171201&player=small" type="text/javascript" charset="utf-8"></script>
+</Helmet>
+
 When I was younger, I often felt shot down whenever I tried to open up about my feelings. I felt the only person I could actually *talk* to was my mom. The stoic Dutch culture I grew up in, the military, and my teenage years all seemed to teach me one lesson: **Don't be weak. Suck it up and keep pushing forward**. I benefited much from this mentality as I ruthlessly grew my career and physical health. But working hard only distracted me from what truly matters and resulted in chronic feelings of loneliness. Everything started changing when I finally found the courage to speak up for myself.
 
 ## Loneliness is a serious and common issue
