@@ -15,8 +15,9 @@ tags:
 
 `youtube: https://www.youtube.com/watch?v=2Xc9gXyf2G4`
 
+<Helmet>
 <div id="buzzsprout-player-11171201"></div><script src="https://www.buzzsprout.com/2037301/11171201-can-loneliness-kill-you.js?container_id=buzzsprout-player-11171201&player=small" type="text/javascript" charset="utf-8"></script>
-
+</Helmet>
 
 ##### Not living up to your potential
 
