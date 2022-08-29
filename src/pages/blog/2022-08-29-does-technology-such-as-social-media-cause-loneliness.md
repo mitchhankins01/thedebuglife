@@ -12,7 +12,11 @@ description: If you've ever felt like you're spending too much time staring at
 featuredpost: true
 featuredimage: /img/nathan-dumlao-klmt1mpgjvg-unsplash.jpg
 ---
+#### Video
+
 `youtube: https://youtu.be/d6PMUxnw6MY`
+
+#### Podcast
 
 [Listen to the Podcast version here](https://thedebuglife.buzzsprout.com/2037301/11222236-does-technology-such-as-social-media-cause-loneliness)
 
