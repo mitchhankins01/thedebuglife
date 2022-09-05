@@ -8,6 +8,9 @@ description: If you're a software developer (or engineer, for that matter),
   their core responsibilities from home.
 featuredpost: true
 featuredimage: /img/img_9509.jpeg
+tags:
+  - dream
+  - belong
 ---
 It's great to be able to set your own hours and avoid the dreaded rush-hour traffic, but remote work has downsides that go beyond domestic distractions and blurred boundaries.
 
