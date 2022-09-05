@@ -14,6 +14,7 @@ It's great to be able to set your own hours and avoid the dreaded rush-hour traf
 `youtube: https://www.youtube.com/watch?v=i1n2RI0vXoU`
 
 [Listen to the podcast here](https://www.buzzsprout.com/2037301/episodes/11263463)
+
 ## Uncaught dangers
 
 I remember having to work on-site for Nasdaq in 2019 and feeling utterly trapped. I would walk to a nearby park or the gym during my lunch breaks just to get outside. 
