@@ -8,12 +8,16 @@ description: If you're a software developer (or engineer, for that matter),
   their core responsibilities from home.
 featuredpost: true
 featuredimage: /img/img_9509.jpeg
+tags:
+  - dream
+  - belong
 ---
 It's great to be able to set your own hours and avoid the dreaded rush-hour traffic, but remote work has downsides that go beyond domestic distractions and blurred boundaries.
 
 `youtube: https://www.youtube.com/watch?v=i1n2RI0vXoU`
 
 [Listen to the podcast here](https://www.buzzsprout.com/2037301/episodes/11263463)
+
 ## Uncaught dangers
 
 I remember having to work on-site for Nasdaq in 2019 and feeling utterly trapped. I would walk to a nearby park or the gym during my lunch breaks just to get outside. 
