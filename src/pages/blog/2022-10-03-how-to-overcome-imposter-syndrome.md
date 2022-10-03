@@ -7,6 +7,9 @@ description: Have you ever felt like you're not good enough to do the job you've
   moment?
 featuredpost: true
 featuredimage: /img/bruce-mars-xj8qrwvuoes-unsplash.jpg
+tags:
+  - do
+  - believe
 ---
 Perhaps you've felt like like you're only pretending to be an adult who's capable of making major financial decisions or raising another human being, even though everyone else seems to have everything figured out.
 
