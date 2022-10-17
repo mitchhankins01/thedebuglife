@@ -8,6 +8,7 @@ description: “Everyone wears metaphorical masks during their lives. We all hav
   find the courage to drop all the bullshit and reveal your true self.” ― Leisa
   Rayven
 featuredpost: true
+featuredimage: /img/aleksandr-popov-2gnbomgkyeo-unsplash.jpg
 tags:
   - believe
   - belong
