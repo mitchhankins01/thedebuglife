@@ -123,3 +123,8 @@ Get outside in nature regularly to disconnect from the busy and overwhelming wor
 ## Free React Developer Roadmap
 
 If you believe this information can benefit anyone you know, please don't hesitate to share this blog post. You can also sign up for my newsletter on the bottom of this page to receive blog updates (never spam), and you will receive the **2022 React Developer Roadmap** *for free*.
+
+
+## Car Accidents and PTSD
+
+Many are not aware of the connection between PTSD and car accidents. Not surprisingly, a car accident can be traumatizing for any person involved. It can make getting back behind the wheel seem impossible. That's why the kind folks over at NST Law created a comprehensive guide about PTSD after car accidents. [Check it out here](https://www.nstlaw.com/guides/ptsd-and-car-accidents)
