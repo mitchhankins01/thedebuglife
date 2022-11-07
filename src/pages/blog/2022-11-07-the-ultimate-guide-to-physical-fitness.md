@@ -8,6 +8,9 @@ description: Before you start lifting weights or start counting calories, you
   know it.
 featuredpost: true
 featuredimage: /img/victor-freitas-vqdauejnwkw-unsplash.jpg
+tags:
+  - believe
+  - do
 ---
 `youtube: https://youtu.be/4EDGp9ggy08`
 
