@@ -6,6 +6,7 @@ description: Focusing your efforts and doing the work isn’t easy. You have to
   create time within your busy schedule to pursue something that will challenge
   you mentally, emotionally, and maybe even physically.
 featuredpost: true
+featuredimage: /img/redcharlie-sspfdw4id8g-unsplash.jpg
 tags:
   - do
   - learn
