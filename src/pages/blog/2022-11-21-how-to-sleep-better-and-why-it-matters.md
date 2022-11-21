@@ -8,7 +8,7 @@ description: We all have the inherent intuition that sleep is essential to our
   sleep deficit will severely impact every area of your mental and physical
   health in the long term.
 featuredpost: true
-featuredimage: https://images.unsplash.com/photo-1590530294835-cb060f18a970?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80
+featuredimage: /img/mert-kahveci-rfnljr9aldk-unsplash.jpg
 tags:
   - believe
   - rest
