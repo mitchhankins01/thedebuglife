@@ -1,3 +1,4 @@
+import { StaticImage } from "gatsby-plugin-image";
 import * as React from "react";
 
 function encode(data) {
@@ -6,7 +7,7 @@ function encode(data) {
     .join("&");
 }
 
-const Newsletter = () => {
+const Newsletter = ({ isWide }) => {
   const [loading, setLoading] = React.useState(false);
   const [response, setResponse] = React.useState("");
   const [formState, setFormState] = React.useState({ isValidated: false });
@@ -52,10 +53,18 @@ const Newsletter = () => {
 
   return (
     <div className="content">
+      <div className={isWide ? "lead-preview-wide" : "lead-preview"}>
+        <StaticImage
+          alt="logo"
+          className=""
+          src="../img/lead_preview.png"
+          objectFit="contain"
+        />
+      </div>
       <p>
         Get the{" "}
         <span className="has-text-weight-bold">
-          2022 React Developer Roadmap
+          Six Habits for Conquering Anxiety and Depression
         </span>{" "}
         for <span className="has-text-weight-bold">FREE</span> by subscribing to
         the newsletter!

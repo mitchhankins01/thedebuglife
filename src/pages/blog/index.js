@@ -22,6 +22,9 @@ const Index = ({ data }) => {
         </div>
         <div className="column subscribe-column">
           <div className="card subscribe-card">
+            <div className="card-content subscribe-card-content">
+              <Newsletter />
+            </div>
             <header className="card-header">
               <p className="card-header-title is-size-6">
                 Connect with Mitch on Social Media
@@ -88,9 +91,6 @@ const Index = ({ data }) => {
                   <YouTube alt="youtube" />
                 </a>
               </div>
-            </div>
-            <div className="card-content blog-card-content">
-              <Newsletter />
             </div>
           </div>
         </div>

@@ -25,7 +25,7 @@ const Footer = () => {
               </section>
             </div>
             <div className="column is-4">
-              <Newsletter />
+              {/* <Newsletter isWide={true} /> */}
             </div>
           </div>
         </div>

@@ -85,7 +85,7 @@ html {
 }
 
 .subscribe-column {
-  max-width: 350px;
+  max-width: 300px;
 }
 
 .subscribe-card {
@@ -96,6 +96,18 @@ html {
 
 .subscribe-card-social {
   display: block;
+}
+
+.lead-preview {
+  margin: calc(-1 * $block-spacing) !important;
+  margin-bottom: calc($block-spacing / 2) !important;
+}
+
+.lead-preview-wide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
 }
 
 .card {
