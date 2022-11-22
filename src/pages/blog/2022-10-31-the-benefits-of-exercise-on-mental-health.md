@@ -8,9 +8,10 @@ description: Exercising isn't only about endurance and aesthetics. Admittedly,
 featuredpost: true
 featuredimage: /img/img_1534.jpeg
 tags:
-  - believe
-  - do
+  - commit
+  - apply
 ---
+
 `youtube: https://youtu.be/gHQk8qrZwfs`
 
 [Listen to the podcast version here](https://thedebuglife.buzzsprout.com/2037301/11602489-the-benefits-of-exercise-on-mental-health)
@@ -23,7 +24,7 @@ Consistent exercise has a profound impact on your mental health and relieves str
 
 For me, exercise is a non-negotiable component of my mental health. While I used it to escape reality in the past, exercise has so many benefits that failure to be consistent causes me to spiral downwards quickly.
 
-When my back issues were discovered in the military, and I was put under orders to cease most kinds of exercise, I quickly lost control of my life and reality. I isolated myself by living like a hermit and suffered from major insomnia. 
+When my back issues were discovered in the military, and I was put under orders to cease most kinds of exercise, I quickly lost control of my life and reality. I isolated myself by living like a hermit and suffered from major insomnia.
 
 To compensate for the lack of sleep, I reverted to my teenage habit of consuming an excessive amount of energy drinks. I became so disconnected from my body due to the lack of exercise that I was permanently stuck in a flight-or-fight response resulting in erratic behavior.
 
@@ -42,7 +43,7 @@ When you're exercising, pay attention to the feeling of your feet hitting the gr
 ### ADHD
 
 ADHD can make it difficult to focus, control your emotions, and finish the tasks you start.
-In my experience, exercising is one of the most simple and effective ways to reduce symptoms of ADHD by improving concentration, memory, mood, and motivation. 
+In my experience, exercising is one of the most simple and effective ways to reduce symptoms of ADHD by improving concentration, memory, mood, and motivation.
 
 Physical activity is the primary driver of the release of dopamine, norepinephrine, and serotonin<sup>[3](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4061837/)</sup>, all of which directly increase your ability to focus. In this way, exercise functions in a similar manner to ADHD medications like Ritalin and Adderall.
 
@@ -58,7 +59,7 @@ There is an increasing amount of evidence that exercise can be a significant ben
 
 ## Implementation
 
-You don't have to go to extremes such as lifting weights for hours at a time or running mile after mile to get the benefits of exercising. Research has shown that 30 minutes of daily exercise five times a week is sufficient<sup>[4](https://www.ahajournals.org/doi/full/10.1161/01.cir.0000048890.59383.8d)</sup>. 
+You don't have to go to extremes such as lifting weights for hours at a time or running mile after mile to get the benefits of exercising. Research has shown that 30 minutes of daily exercise five times a week is sufficient<sup>[4](https://www.ahajournals.org/doi/full/10.1161/01.cir.0000048890.59383.8d)</sup>.
 
 ### Exercise Moderately
 
@@ -70,7 +71,7 @@ Moderate exercise is characterized by anything that gets your heart beating fast
 
 While I recommend exercising for at least thirty minutes a day, you don't have to do it all in one go, so feel free to break it up. You could choose to exercise twice for 15 minutes or three times for ten minutes.
 
-Start with five or ten-minute sessions and slowly increase your time as you listen to your body. Set weekly or monthly goals; as exercising becomes a habit, you can slowly start adding minutes or trying different activities. 
+Start with five or ten-minute sessions and slowly increase your time as you listen to your body. Set weekly or monthly goals; as exercising becomes a habit, you can slowly start adding minutes or trying different activities.
 
 ### Overcoming Obstacles
 
@@ -90,7 +91,7 @@ Discipline is the result of learning and applying, it isn't created overnight bu
 
 #### Exhaustion
 
-Honestly, whenever I am tired, sad, or stressed, it seems like exercising will simply make me feel worse. But in reality, physical activity is one of the most potent natural energizers. 
+Honestly, whenever I am tired, sad, or stressed, it seems like exercising will simply make me feel worse. But in reality, physical activity is one of the most potent natural energizers.
 
 Regular exercise can have a profound impact on the reduction of fatigue and increase of energy. Whenever you're exhausted, tell yourself to start an activity for only five minutes, and chances are you'll be willing to go for longer once you get started.
 
@@ -102,10 +103,8 @@ You can also try finding inexpensive and convenient community resources, such as
 
 ### Getting Started
 
-1. **Focus on enjoyable activities**. Remember that anything that gets your heartbeat up and gets you breathing heavily counts as moderate exercise. If you hate running on a treadmill, then don't. 
+1. **Focus on enjoyable activities**. Remember that anything that gets your heartbeat up and gets you breathing heavily counts as moderate exercise. If you hate running on a treadmill, then don't.
 2. **Schedule your workouts** when your energy is highest. There are two benefits to this approach: scheduling will make exercise more likely to happen, and working out when your energy is highest will require less motivation.
 3. **Start small** and build up slowly. Sticking to extravagant goals is hard, especially when you're overwhelmed by emotions. Start with something you can easily commit to and finish, and as the habit builds, you will be able to go for longer.
 4. **Reward yourself** after completing an activity in order to associate it with pleasure in your brain. When you end exercising with a reward, your body will start craving it the next time.
 5. **Involve others** and make exercise a social activity to reduce some obstacles to working out, such as a lack of accountability and motivation. When I go climbing, the companionship of going with friends is just as beneficial as the exercise itself.
-
-

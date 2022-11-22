@@ -10,9 +10,10 @@ description: We all have the inherent intuition that sleep is essential to our
 featuredpost: true
 featuredimage: /img/mert-kahveci-rfnljr9aldk-unsplash.jpg
 tags:
-  - believe
+  - commit
   - rest
 ---
+
 Sleeping properly helps fight inflammation, reduces cognitive and physical disease, and makes it easier to maintain a healthy weight. Given that one in three Americans sleeps fewer than six hours a night and an estimated 20% of vehicle crashes are linked to drowsy driving, we may want to start paying more attention to the vital activity of sleeping<sup>[1](https://pubmed.ncbi.nlm.nih.gov/22534760/)</sup>.
 
 `youtube: https://youtu.be/aL0ZjXux8XY`
@@ -31,13 +32,13 @@ I started waking up at random hours of the night, unable to go back to sleep. I 
 
 The lack of sleep manifested itself in many detrimental ways. I was extremely irritable and became even more defensive than I typically am. My relationships with family, friends, coworkers, and partners all suffered. I got into arguments with neighbors and did or said things to people I cared for that I can never take back.
 
-After a year or two, I had enough; I stopped denying the problem and accepted sleep as one of my most important responsibilities. Nowadays, getting the right amount and quality of sleep is utterly non-negotiable, and I have learned some tips and tricks along the way that can help you too. 
+After a year or two, I had enough; I stopped denying the problem and accepted sleep as one of my most important responsibilities. Nowadays, getting the right amount and quality of sleep is utterly non-negotiable, and I have learned some tips and tricks along the way that can help you too.
 
 ### Mental Health
 
-Restful sleep helps anyone feel refreshed and ready to take on the day ahead, but for those who suffer from depression or anxiety, restful sleep has an even more significant impact. 
+Restful sleep helps anyone feel refreshed and ready to take on the day ahead, but for those who suffer from depression or anxiety, restful sleep has an even more significant impact.
 
-Eight out of ten people who struggle with depression have insomnia, and the struggle to sleep only worsens as we age. 
+Eight out of ten people who struggle with depression have insomnia, and the struggle to sleep only worsens as we age.
 
 Anxiety disorders, which affect one out of every five Americans<sup>[4](https://newsinhealth.nih.gov/2016/03/understanding-anxiety-disorders)</sup>, can also increase the difficulty of sleeping. The symptoms of anxiety, both physical and mental, may cause sleep deprivation and create a vicious cycle that only worsens sleep deprivation.
 
@@ -53,7 +54,7 @@ Studies have found that adults who get fewer hours of sleep than their peers are
 
 A lack of sleep directly affects the levels of the two main weight management hormones, ghrelin, and leptin, which are closely tied to hunger and weight. Ghrelin increases your appetite, and leptin signals your body you are satiated. When you're exhausted, leptin levels decrease, making it harder to stop eating even when you're satiated.
 
-Sleep doesn't only impact weight loss; it is also the time during which your body repairs and builds new muscle tissue. 
+Sleep doesn't only impact weight loss; it is also the time during which your body repairs and builds new muscle tissue.
 
 ### Cognitive Function
 

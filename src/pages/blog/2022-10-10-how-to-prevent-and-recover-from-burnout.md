@@ -8,9 +8,10 @@ description: Have you ever felt like you were unable to maintain focus at work?
 featuredpost: true
 featuredimage: /img/christian-erfurt-sxqz2vfofbe-unsplash.jpg
 tags:
-  - believe
-  - belong
+  - commit
+  - connect
 ---
+
 `youtube: https://youtu.be/uebIzZX3e3M`
 
 [Listen to the podcast version here](https://thedebuglife.buzzsprout.com/2037301/11471303-how-to-prevent-and-recover-from-burnout)
@@ -23,7 +24,7 @@ In today's post, let's talk about what exactly burnout is, what causes it, and h
 
 Burnout is a state of physical, mental, or emotional exhaustion caused by excessive stress and overwork. While it isn't an official medical condition, burnout has a significant impact on your productivity, creativity, relationships, and quality of life.
 
-Burnout doesn't simply show up out of nowhere, its momentum builds each time you cross a personal boundary or spend effort on things that don't feel authentic to you. 
+Burnout doesn't simply show up out of nowhere, its momentum builds each time you cross a personal boundary or spend effort on things that don't feel authentic to you.
 
 ## My Story
 
@@ -33,7 +34,7 @@ I remember one night where I couldn't solve a particular problem and spent 18 ho
 
 What I didn't realize at the time was how much of a price I would be paying for forcing myself to "laser focus". The 18 hour debugging session was followed by extreme exhaustion, a lack of appetite, self-doubt, and incessant body aches.
 
-To this day I still regularly experience burnout, but I have gotten better about recognizing which behaviors contribute to it and changing them each time I fail. 
+To this day I still regularly experience burnout, but I have gotten better about recognizing which behaviors contribute to it and changing them each time I fail.
 
 ### The Emotional Effects of Burnout
 
@@ -43,7 +44,7 @@ The emotional effects of burnout are many, but let's cover some of the most freq
 
 **Self doubt** can show up in many ways such as feeding your imposter syndrome or simply causing you to feel like you can't produce results.
 
-**Depersonalization** is the result of no longer enjoying your work and can cause you to feel detached towards your friends, coworkers, and clients. 
+**Depersonalization** is the result of no longer enjoying your work and can cause you to feel detached towards your friends, coworkers, and clients.
 
 **Feeling pressured** can be caused by perfectionism because we feel weak when we are burned out, and when we feel weak we don't want to be seen making mistakes.
 
@@ -75,7 +76,7 @@ Since burnout affects us on both an emotional and physical level, it is only log
 
 ## What Causes Burnout
 
-Now that we've covered how burnout show up emotionally, physically, and behaviorally, let's explore some of the causes of what cause burnout in the first place. 
+Now that we've covered how burnout show up emotionally, physically, and behaviorally, let's explore some of the causes of what cause burnout in the first place.
 
 The awareness of the symptoms will help you recognize when you have burnout, and the awareness of the causes of burnout will help you prevent it.
 
@@ -139,4 +140,4 @@ In other words, recognizing the signs of burnout and putting in the effort to co
 
 ## Free React Developer Roadmap
 
-If you believe this information can benefit anyone you know, please don't hesitate to share this blog post. You can also sign up for my newsletter on the bottom of this page to receive blog updates (never spam), and you will receive the **2022 React Developer Roadmap** *for free*.
+If you believe this information can benefit anyone you know, please don't hesitate to share this blog post. You can also sign up for my newsletter on the bottom of this page to receive blog updates (never spam), and you will receive the **2022 React Developer Roadmap** _for free_.

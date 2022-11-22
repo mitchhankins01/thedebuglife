@@ -8,9 +8,10 @@ description: Focusing your efforts and doing the work isn’t easy. You have to
 featuredpost: true
 featuredimage: /img/redcharlie-sspfdw4id8g-unsplash.jpg
 tags:
-  - do
-  - learn
+  - apply
+  - integrate
 ---
+
 You already spend so much of your energy working for a paycheck. In comparison, setting and achieving your own goals is a small investment in your future with a far greater return than any typical job could give you.
 
 Getting shit done also improves your personal life because happiness is the result of realizing what you're capable of and overcoming the limiting beliefs you have about yourself.
@@ -25,9 +26,9 @@ For a long time, my limiting belief was that I'm terrible at math and anything t
 
 I dropped out of - or skipped out on, any classes related to math and sciences; I never even bothered to try studying for anything. By the time I graduated high school, I was convinced I would never hold down a regular job.
 
-Shortly after, during my time in the military, I started questioning a lot of my mental programming. I started asking myself which beliefs were mine, and whether they were helping me or holding me back. 
+Shortly after, during my time in the military, I started questioning a lot of my mental programming. I started asking myself which beliefs were mine, and whether they were helping me or holding me back.
 
-It wasn't until I started taking college classes for a Computer Science degree that I realized how wrong those people had been about me. Not only was I able to stay focused for a significant amount of time, I did so with incredible results. 
+It wasn't until I started taking college classes for a Computer Science degree that I realized how wrong those people had been about me. Not only was I able to stay focused for a significant amount of time, I did so with incredible results.
 
 By challenging the beliefs I had about myself, I opened the door for amazing developments in my personal and professional life. I'm proud to say, I never even finished my degree and yet I have the confidence to complete any project asked of me at work.
 
@@ -65,7 +66,7 @@ The best way to learn a skill is by ensuring that the process of learning is tie
 
 During the learning process, you will always be stronger in some areas than others. Generally, a weakness indicates an insufficient amount of practice, but there's a few ways you can hyper-focus on some of these weaknesses.
 
-**Repeating cognitive components** is a method you can use when you don't want to practice a particular slice of time (such as a set of music chords) but rather a particular cognitive component such as vocabulary or pronunciation when learning a new language. 
+**Repeating cognitive components** is a method you can use when you don't want to practice a particular slice of time (such as a set of music chords) but rather a particular cognitive component such as vocabulary or pronunciation when learning a new language.
 
 **Time slicing** is done by isolating a space in time of a longer sequence of actions. Look for parts of the skill you're trying to learn that can be deconstructed into specific moments in time that have a higher level of difficulty or importance. A musician may practice a particular set of chords for example.
 
@@ -77,7 +78,7 @@ The simple truth is that forgetting and memory decay are part of the human exper
 
 **Spaced repetition** is one of the best strategies to fight memory decay. Spreading learning over more intervals for longer periods of time decreases your recall in the short-term, but increases retention in the long-term. The key here is finding a balance between spacing your study sessions too closely, causing you to lose efficiency, and spacing them too far apart, causing you to forget what you've already learned.
 
-**Proceduralize** the skill you're practicing in order to make it "automatic", like riding a bicycle. These kind of skills are stored in a different manner in the brain and are less susceptible to being forgotten when compared to knowledge that requires explicit effort to recall. Instead of learning a large volume of information, try focusing on the core fundamentals and doing them so often they become automatic. 
+**Proceduralize** the skill you're practicing in order to make it "automatic", like riding a bicycle. These kind of skills are stored in a different manner in the brain and are less susceptible to being forgotten when compared to knowledge that requires explicit effort to recall. Instead of learning a large volume of information, try focusing on the core fundamentals and doing them so often they become automatic.
 
 **Going the extra mile** by doing additional practice beyond what is required to learn the basics of a skill, is a well-studied phenomenon that can increase the length of time memories are stored<sup>[1](https://psycnet.apa.org/record/1993-04376-001)</sup>. If you're taking classes to learn Spanish, you may consider living in Mexico for a few weeks to solidify your knowledge.
 
@@ -98,7 +99,7 @@ When you're just starting to learn a specific skill, it's usually enough to just
 In order to put all of this together, follow these steps and remember that the more clearly and emotionally you write, the more likely you are to achieve your goal.
 
 1. Take a piece of paper and write down which goal you want to attain, and why. For example, you may write down the goal of learning how to code websites because you want more freedom and a higher paycheck.
-2. After you have written your why, take note of what knowledge and skills you will need to learn in order to be successful. To continue the coding example, you may write down "HTML, CSS, and JavaScript". 
+2. After you have written your why, take note of what knowledge and skills you will need to learn in order to be successful. To continue the coding example, you may write down "HTML, CSS, and JavaScript".
 3. Write down which resources and methods you'll use in order to gain the skills and knowledge you need. For the coding example, this could be Udemy, Coursera, books, or mentors.
-4.  Set time constraints on what you want to learn and when. If you want to get hired as a software developer a year from now, you may decide to become comfortable with HTML in month, CSS in two months, JavaScript in 6 months, and so on.
-5.  Take action and keep yourself accountable with weekly checkins. Take a day each week to reflect on your progress and ask yourself if your development has stalled in any way. Having an accountability partner such as a mentor or a study-buddy can also increase motivation to keep going.
+4. Set time constraints on what you want to learn and when. If you want to get hired as a software developer a year from now, you may decide to become comfortable with HTML in month, CSS in two months, JavaScript in 6 months, and so on.
+5. Take action and keep yourself accountable with weekly checkins. Take a day each week to reflect on your progress and ask yourself if your development has stalled in any way. Having an accountability partner such as a mentor or a study-buddy can also increase motivation to keep going.

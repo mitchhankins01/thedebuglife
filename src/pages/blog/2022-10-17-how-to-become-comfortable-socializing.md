@@ -10,9 +10,10 @@ description: “Everyone wears metaphorical masks during their lives. We all hav
 featuredpost: true
 featuredimage: /img/aleksandr-popov-2gnbomgkyeo-unsplash.jpg
 tags:
-  - believe
-  - belong
+  - commit
+  - connect
 ---
+
 `youtube: https://youtu.be/v__HsLcL69I`
 
 [Listen to the podcast version here](https://thedebuglife.buzzsprout.com/2037301/11515685-how-to-become-comfortable-socializing)
@@ -21,15 +22,15 @@ tags:
 
 ### The Confidence Building Benefits of Being Social
 
-*Confidence is a belief in oneself, the conviction that one has the ability to meet life's challenges and to succeed - and the willingness to act accordingly. Being confident requires a realistic sense of one's capabilities and feeling secure in that knowledge.*
+_Confidence is a belief in oneself, the conviction that one has the ability to meet life's challenges and to succeed - and the willingness to act accordingly. Being confident requires a realistic sense of one's capabilities and feeling secure in that knowledge._
 
 While it may be true that feeling confident increases your chances of being comfortable in social settings, the inverse is also true. Being in social settings and creating meaningful relationships will increase your confidence.
 
-It's important to build confidence in social settings because it will make you more desirable and likable. People gravitate towards confidence and are pushed away by insecurity and over-confidence. 
+It's important to build confidence in social settings because it will make you more desirable and likable. People gravitate towards confidence and are pushed away by insecurity and over-confidence.
 
 ### The Health Benefits of Being Social
 
-Aside from confidence building, there are many health benefits of placing yourself in social settings. Social interactions have been a significant part of cognitive development from the day you were born. 
+Aside from confidence building, there are many health benefits of placing yourself in social settings. Social interactions have been a significant part of cognitive development from the day you were born.
 
 Relationships and interactions during your formative years with parents, siblings, friends and others taught you how to talk, interpret and express emotions, and learn about the environment around you.
 
@@ -69,7 +70,7 @@ Having the courage to be authentic is absolutely critical to feeling comfortable
 
 ## My Story of Finding Confidence
 
-The truth is that I've felt alone for the majority of my life. Especially when I was younger, I had a difficult time relating to others and feeling a sense of belonging. This pattern repeated itself over and over again until I grew the awareness to change my beliefs and behavior. 
+The truth is that I've felt alone for the majority of my life. Especially when I was younger, I had a difficult time relating to others and feeling a sense of belonging. This pattern repeated itself over and over again until I grew the awareness to change my beliefs and behavior.
 
 Computers turned out to be my salvation when I was around eight years old. My actions ranged from taking apart my mom's work PC down to the motherboard all the way to putting together my own hardware and dual booting linux and [hackintosh](https://hackintosh.com/). I didn't play much soccer or interact with many other kids my age.
 
@@ -101,9 +102,10 @@ You can build confidence by getting to know yourself, and courage by doing somet
 
 **Make eye contact and smile** in order to make others feel like they have your full attention. Eye contact can be intimidating to maintain but it is a skill you can easily practice every day.
 
-**Share things about yourself** to make yourself relatable to others and to find areas of mutual interest. 
+**Share things about yourself** to make yourself relatable to others and to find areas of mutual interest.
 
 **Discover what people are passionate about** by asking them about their hobbies, work, family, or something they appear interested in. Remember, the easiest subject for us to talk about is ourselves.
+
 ## Free React Developer Roadmap
 
-If you believe this information can benefit anyone you know, please don't hesitate to share this blog post. You can also sign up for my newsletter on the bottom of this page to receive blog updates (never spam), and you will receive the **2022 React Developer Roadmap** *for free*.
+If you believe this information can benefit anyone you know, please don't hesitate to share this blog post. You can also sign up for my newsletter on the bottom of this page to receive blog updates (never spam), and you will receive the **2022 React Developer Roadmap** _for free_.

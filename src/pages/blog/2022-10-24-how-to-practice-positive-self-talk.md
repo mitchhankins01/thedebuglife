@@ -9,9 +9,10 @@ description: The human brain is the most powerful biochemical computer known to
 featuredpost: true
 featuredimage: /img/mick-haupt-rfvceqicqua-unsplash.jpg
 tags:
-  - believe
-  - dream
+  - commit
+  - analyze
 ---
+
 `youtube: https://youtu.be/ikUFvQB9zko`
 
 [Listen to the podcast version here](https://thedebuglife.buzzsprout.com/2037301/11557346-how-to-practice-positive-self-talk)
@@ -40,7 +41,7 @@ I remember having a massive panic attack a few years ago as I was laying in my b
 
 At some point during that night, I realized that it was the internal dialogue in my head creating all of the awful physical sensations in my body. It was in that moment I decided that any time negative thoughts surfaced, I would rephrase them and use that positive energy to change my behaviors.
 
-It took a great deal of effort, but any time a thought such as "I am not good enough" surfaces now, I have the awareness to intercept it before it is given a chance to expand and I developed the habits to make productive use of that thought. 
+It took a great deal of effort, but any time a thought such as "I am not good enough" surfaces now, I have the awareness to intercept it before it is given a chance to expand and I developed the habits to make productive use of that thought.
 
 For example, whenever I feel unwanted I may reach out to a friend for a hike or dinner, and whenever I feel "not good enough" I will journal about what's causing me to feel this way and discover something new about myself.
 
@@ -52,7 +53,7 @@ There are several levels of self-talk, each of us move through these levels on a
 
 **Negative acceptance** ("I can't" or "if only I could") is the most harmful kind of self-talk. This type of dialogue makes you hesitate, question your abilities, and accept less than you know you're capable of. This type of thinking shuts down any kind of creative thinking because it implies doing so is pointless.
 
-**Recognition and frustration** ("I need to" or "I should") helps you recognize a problem but creates frustration by not providing a solution. It creates guilt, disappointment, and an acceptance of your own self-imagined inadequacies. 
+**Recognition and frustration** ("I need to" or "I should") helps you recognize a problem but creates frustration by not providing a solution. It creates guilt, disappointment, and an acceptance of your own self-imagined inadequacies.
 
 **Decision to change** ("I never" or "I no longer") is the first level that works for you instead of against you. Here, you recognize the need to change but also make the decision to do something about it in the present as though the change has already taken place.
 
@@ -62,7 +63,7 @@ There are several levels of self-talk, each of us move through these levels on a
 
 The methods that make self-talk work for you are simple and easy to use but require daily practice. You will feel drawn more to some than others and it is important you try different ones to see which ones make a difference for you.
 
-**Silent self-talk** is either conscious or unconscious internal dialogue that incudes everything you think about yourself and your surroundings. It gives you the opportunity to reframe your thoughts in a positive light, thereby changing your programming. 
+**Silent self-talk** is either conscious or unconscious internal dialogue that incudes everything you think about yourself and your surroundings. It gives you the opportunity to reframe your thoughts in a positive light, thereby changing your programming.
 
 For example, you may rephrase the thought "work is frustrating me so I obviously don't know what I'm doing" into "I am frustrated because I am operating at the limits of my comfort zone, but this is where I grow and become more confident".
 
@@ -84,10 +85,10 @@ Now that we've talked about what self-talk is, how it affects mental health, the
 
 > Continuing the weight loss example, try to reframe the thought into something that will help you take action with positive intent. You may rewrite "I should lose weight because I don't like the way I look in the mirror" into something like "I am committed to daily exercise and proper nutrition so that I can live up to my full potential".
 
-**Integrate the new self-talk** you created into your daily life by using the silent, spoken, and written self-talk methods. 
+**Integrate the new self-talk** you created into your daily life by using the silent, spoken, and written self-talk methods.
 
 > For example, you may decide to leverage silent self-talk by reframing your thoughts each time you look in the mirror, and written self-talk by creating a diet and workout plan which will motivate you.
 
 ## Free React Developer Roadmap
 
-If you believe this information can benefit anyone you know, please don't hesitate to share this blog post. You can also sign up for my newsletter on the bottom of this page to receive blog updates (never spam), and you will receive the **2022 React Developer Roadmap** *for free*.
+If you believe this information can benefit anyone you know, please don't hesitate to share this blog post. You can also sign up for my newsletter on the bottom of this page to receive blog updates (never spam), and you will receive the **2022 React Developer Roadmap** _for free_.

@@ -9,14 +9,15 @@ description: Before you start lifting weights or start counting calories, you
 featuredpost: true
 featuredimage: /img/victor-freitas-vqdauejnwkw-unsplash.jpg
 tags:
-  - believe
-  - do
+  - commit
+  - apply
 ---
+
 `youtube: https://youtu.be/4EDGp9ggy08`
 
 [Listen to the podcast version here](https://thedebuglife.buzzsprout.com/2037301/11646630-the-ultimate-guide-to-physical-fitness)
 
-You can rest assured that anyone who has the body you aspire to has very specific, actionable, and realistic health and fitness goals and is driven to progressively improve every day. 
+You can rest assured that anyone who has the body you aspire to has very specific, actionable, and realistic health and fitness goals and is driven to progressively improve every day.
 
 In order to maintain the motivation to put in the work, put some thought into these prompts and write down your answers.
 
@@ -38,7 +39,7 @@ In order to maintain the motivation to put in the work, put some thought into th
 
 Now that you know how to lay the foundation of your physical fitness journey, let's talk about some of the most common myths and errors people make. You won't completely avoid them, especially just starting out, but awareness will help.
 
-**Error #1: More sets equals more growth.** The truth is that too many sets can actually be detrimental by causing overtraining, which decreases muscle growth and makes you feel lethargic. 
+**Error #1: More sets equals more growth.** The truth is that too many sets can actually be detrimental by causing overtraining, which decreases muscle growth and makes you feel lethargic.
 
 **Error #2: The burn causes growth.** The burning sensation is actually a buildup of lactic acid in the muscle, while this does induce some anabolic processes it is not the optimal way.
 
@@ -46,15 +47,15 @@ Now that you know how to lay the foundation of your physical fitness journey, le
 
 **Error #4: Lifting like a fool.** Most of us don't have a clue about proper form when it comes to exercising. This ignorance causes unnecessary wear and tear on tendons and joints, and paves the way to injury.
 
-**Error #5: Lifting with a weak mentality.** Most people I've worked with don't want to exert themselves too much, and as a result their bodies didn't change much either. If you push through the mental discomfort, you will make progress. 
+**Error #5: Lifting with a weak mentality.** Most people I've worked with don't want to exert themselves too much, and as a result their bodies didn't change much either. If you push through the mental discomfort, you will make progress.
 
-**Error #6: Improper nutrition.** Many beginners will overtrain and under-eat in the hopes of losing fat and gaining muscle. This is a fallacy, in order to grow you must eat at a caloric surplus, and in order to lose weight you must eat at a caloric deficit. 
+**Error #6: Improper nutrition.** Many beginners will overtrain and under-eat in the hopes of losing fat and gaining muscle. This is a fallacy, in order to grow you must eat at a caloric surplus, and in order to lose weight you must eat at a caloric deficit.
 
 ## The Constants of Muscle Growth
 
-You now know some of the most common errors people make, so let's go over the basics of what builds muscle. 
+You now know some of the most common errors people make, so let's go over the basics of what builds muscle.
 
-**Constant #1: Muscles only grow when they are forced to do so.** Lifting weights causes micro-tears in the muscle tissue, which forces the body to repair and adapt in order to better handle the stimulus that caused the damage. 
+**Constant #1: Muscles only grow when they are forced to do so.** Lifting weights causes micro-tears in the muscle tissue, which forces the body to repair and adapt in order to better handle the stimulus that caused the damage.
 
 **Constant #2: Growth is caused by overload, not fatigue or a pump.** The burning sensation that usually follows from high-rep exercises is not an indicator of a good workout. Building muscle requires lifting heavy weights in the 4-6 reps range.
 
@@ -70,13 +71,13 @@ You now know some of the most common errors people make, so let's go over the ba
 
 **Fact #3: Most of the programs and diets you hear about are fads.** While some diets are quite healthy, the exorbitant amount of fad diets, exercises, and pills being promoted by ripped public figures just serve to confuse you. The rules are simple, a good body requires effort, not popping pills and other easy fixes.
 
-**Fact #4: Performing low-weight and high-rep exercises do not get you toned.** Research has shown that doing more than 15 reps causes little-to-none muscle growth, it only improves endurance. 
+**Fact #4: Performing low-weight and high-rep exercises do not get you toned.** Research has shown that doing more than 15 reps causes little-to-none muscle growth, it only improves endurance.
 
 ## The Training Formula
 
 Now that you know about the most common mistakes people make, how muscle growth really happens, and what it takes to actually lose fat, let's talk about the underlying fundamentals you should always aim to integrate into your routine.
 
-**Train 1-2 muscle groups per day.** Doing so will keep your workouts under an hour (going over an hour is generally counterproductive), and will allow you to focus better. 
+**Train 1-2 muscle groups per day.** Doing so will keep your workouts under an hour (going over an hour is generally counterproductive), and will allow you to focus better.
 
 **Perform 4-6 reps on most exercises.** Use weights that are light enough for you to get at least four reps but heavy enough to prevent you from doing more than six reps. The moment you can do six reps, move up to the next weight where you can perform four reps but again no more than six.
 
@@ -94,53 +95,53 @@ Before we get into the details of this basic workout plan, remember that the onl
 
 #### Day One: Chest & Core
 
-|Exercise|Notes|
-|---|---|
-|Flat Barbell Bench Press|3 warmup sets followed by 3 working sets (4-6 reps)|
-|Incline Bench Press | 3 working sets (4-6 reps)|
-|Chest Dips|3 working sets (4-6 reps)|
-|Cable Crunches|3 sets (10-12 reps)|
-|Leg Raises|3 sets (until failure)|
+| Exercise                 | Notes                                               |
+| ------------------------ | --------------------------------------------------- |
+| Flat Barbell Bench Press | 3 warmup sets followed by 3 working sets (4-6 reps) |
+| Incline Bench Press      | 3 working sets (4-6 reps)                           |
+| Chest Dips               | 3 working sets (4-6 reps)                           |
+| Cable Crunches           | 3 sets (10-12 reps)                                 |
+| Leg Raises               | 3 sets (until failure)                              |
 
 #### Day Two: Back & Calves
 
-|Exercise|Notes|
-|---|---|
-|Barbell Deadlift|3 warmup sets followed by 3 working sets (4-6 reps)|
-|Dumbbell Rows|3 working sets (4-6 reps)|
-|Lat Pulldowns|3 working sets (4-6 reps)|]
-|Calf Raises|3 sets (10-12 reps)|
-|Calf Presses on Leg Press|3 sets (10-12 reps)|
+| Exercise                  | Notes                                               |
+| ------------------------- | --------------------------------------------------- | --- |
+| Barbell Deadlift          | 3 warmup sets followed by 3 working sets (4-6 reps) |
+| Dumbbell Rows             | 3 working sets (4-6 reps)                           |
+| Lat Pulldowns             | 3 working sets (4-6 reps)                           | ]   |
+| Calf Raises               | 3 sets (10-12 reps)                                 |
+| Calf Presses on Leg Press | 3 sets (10-12 reps)                                 |
 
 #### Day Three: Shoulders
 
-|Exercise|Notes|
-|---|---|
-|Seated Military Press|3 warmup sets followed by 3 working sets (4-6 reps)|
-|Side Lateral Raises|3 working sets (4-6 reps)|
-|Bent-over Rear Delt Raises|3 working sets (4-6 reps)|
-|Barbell Shrugs|3 working sets (4-6 reps)|
+| Exercise                   | Notes                                               |
+| -------------------------- | --------------------------------------------------- |
+| Seated Military Press      | 3 warmup sets followed by 3 working sets (4-6 reps) |
+| Side Lateral Raises        | 3 working sets (4-6 reps)                           |
+| Bent-over Rear Delt Raises | 3 working sets (4-6 reps)                           |
+| Barbell Shrugs             | 3 working sets (4-6 reps)                           |
 
 #### Day Four: Legs & Calves
 
-|Exercise|Notes|
-|---|---|
-|Barbell Squats|3 warmup sets followed by 3 working sets (4-6 reps)|
-|Leg Presses|3 working sets (4-6 reps)|
-|Romanian Deadlifts|3 working sets (4-6 reps)|
-|Calf Raises|3 sets (10-12 reps)|
-|Calf Presses on Leg Press|3 sets (10-12 reps)|
+| Exercise                  | Notes                                               |
+| ------------------------- | --------------------------------------------------- |
+| Barbell Squats            | 3 warmup sets followed by 3 working sets (4-6 reps) |
+| Leg Presses               | 3 working sets (4-6 reps)                           |
+| Romanian Deadlifts        | 3 working sets (4-6 reps)                           |
+| Calf Raises               | 3 sets (10-12 reps)                                 |
+| Calf Presses on Leg Press | 3 sets (10-12 reps)                                 |
 
 #### Day Five: Arms & Core
 
-|Exercise|Notes|
-|---|---|
-|Dumbbell Curls|3 warmup sets followed by 3 working sets (4-6 reps)|
-|Tricep Pushdowns|3 warmup sets followed by 3 working sets (4-6 reps)|
-|Barbell Curls|3 working sets (4-6 reps)|
-|Seated Triceps Presses|3 working sets (4-6 reps)|
-|Cable Crunches|3 working sets (10-12 reps)|
-|Leg Raises|3 working sets (10-12 reps)|
+| Exercise               | Notes                                               |
+| ---------------------- | --------------------------------------------------- |
+| Dumbbell Curls         | 3 warmup sets followed by 3 working sets (4-6 reps) |
+| Tricep Pushdowns       | 3 warmup sets followed by 3 working sets (4-6 reps) |
+| Barbell Curls          | 3 working sets (4-6 reps)                           |
+| Seated Triceps Presses | 3 working sets (4-6 reps)                           |
+| Cable Crunches         | 3 working sets (10-12 reps)                         |
+| Leg Raises             | 3 working sets (10-12 reps)                         |
 
 #### Time Constraints
 
@@ -150,4 +151,4 @@ If you are unable to workout five times a week, you can shrink the above program
 
 Supplements are generally useless, especially since they're created for and marketed at those who are more concerned with finding quick and easy fixes rather than building a proper foundation with grit and hard work.
 
-Supplements don't replace an existing healthy diet, they merely *supplement* it. The only supplements really worth investing in are whey proteins and creatine.
+Supplements don't replace an existing healthy diet, they merely _supplement_ it. The only supplements really worth investing in are whey proteins and creatine.
