@@ -9,6 +9,9 @@ description: Studies have shown that over half of the American population
   ten Americans believe that all calories play an equal role in weight gain.
 featuredpost: true
 featuredimage: /img/anastase-maragos-7kepupb8vnk-unsplash.jpg
+tags:
+  - apply
+  - rest
 ---
 The nutritional aspect of fitness is incredibly important, and it can either work for you by enhancing your results or against you by causing a plateau in your progress. Proper nutrition does not equal buying the latest supplement fad but rather following a set plan that increases the momentum toward your goals.
 
