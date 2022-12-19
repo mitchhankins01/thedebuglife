@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: How To Feel and Respond to the Emotions of Others
-date: 2022-12-19T05:04:51.522Z
+date: 2022-12-19T17:00:51.522Z
 description: Empathy is the ability to sense other people's emotions and imagine
   what someone else might think or feel. Empathizing with others enables you to
   act with compassion and find ways to reduce their distress and your own.
