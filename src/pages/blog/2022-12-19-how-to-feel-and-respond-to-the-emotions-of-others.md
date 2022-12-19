@@ -13,11 +13,12 @@ tags:
 ---
 `youtube: https://youtu.be/TcWVV8OXaew`
 
-[Listen to the podcast version here](link)
+[Listen to the podcast version here](https://thedebuglife.buzzsprout.com/2037301/11895662-how-to-feel-and-respond-to-the-emotions-of-others)
+
+Empathy isn't reserved only for the challenging moments in life; it also allows you to share in the excitement of others and experience joy together. It will enable you to create more meaningful relationships by authentically connecting with what others think and feel and for others to connect with what you're feeling.
 
 “Constantly think of the universe as a single living being, comprised of a single substance and a single soul; and how all things issue into the single perception of this being, and how it accomplishes all things through a single impulse; and how all things work together to cause all that comes to be, and how intricate and densely woven is the fabric formed by their interweaving” – Marcus Aurelius, _Meditations,_ 4.40
 
-Empathy isn't reserved only for the challenging moments in life; it also allows you to share in the excitement of others and experience joy together. It will enable you to create more meaningful relationships by authentically connecting with what others think and feel and for others to connect with what you're feeling.
 
 ## Types of Empathy
 
