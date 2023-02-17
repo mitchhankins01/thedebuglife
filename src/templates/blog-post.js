@@ -124,6 +124,21 @@ const BlogPost = ({ data }) => {
     date: post.frontmatter.date,
   });
 
+  const [showModal, setShowModal] = React.useState(false);
+  React.useEffect(() => {
+    const alreadyShown = localStorage.getItem('subscribe-popup-show');
+
+    if (!alreadyShown) {
+      const timeoutId = setTimeout(() => {
+        setShowModal(true);
+        localStorage.setItem('subscribe-popup-show', true);
+      }, 5000)
+
+      return () => clearTimeout(timeoutId);
+    }
+  }, []);
+  const hideModal = () => setShowModal(false);
+
   return (
     <Layout>
       <Hero imageInfo={{ image: post.frontmatter.featuredimage }} />
@@ -187,6 +202,22 @@ const BlogPost = ({ data }) => {
           </div>
         </div>
       </section>
+      {showModal && (
+        <div className="modal is-active">
+          <div className="modal-background" />
+          <div className="modal-card">
+            <header className="modal-card-head">
+              <p className="modal-card-title">Subscribe for Updates</p>
+              <button aria-label="Close" className="delete" onClick={hideModal} />
+            </header>
+            <section className="modal-card-body">
+              <div className="content">
+                <Newsletter hideImage={true} />
+              </div>
+            </section>
+          </div>
+        </div>
+      )}
     </Layout>
   );
 };

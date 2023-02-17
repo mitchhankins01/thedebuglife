@@ -7,7 +7,7 @@ function encode(data) {
     .join("&");
 }
 
-const Newsletter = ({ isWide }) => {
+const Newsletter = ({ isWide, hideImage }) => {
   const [loading, setLoading] = React.useState(false);
   const [response, setResponse] = React.useState("");
   const [formState, setFormState] = React.useState({ isValidated: false });
@@ -53,20 +53,22 @@ const Newsletter = ({ isWide }) => {
 
   return (
     <div className="content">
-      <div className={isWide ? "lead-preview-wide" : "lead-preview"}>
-        <StaticImage
-          alt="logo"
-          className=""
-          src="../img/lead_preview.png"
-          objectFit="contain"
-        />
-      </div>
+      {!hideImage && (
+        <div className={isWide ? "lead-preview-wide" : "lead-preview"}>
+          <StaticImage
+            alt="logo"
+            className=""
+            src="../img/lead_preview.png"
+            objectFit="contain"
+          />
+        </div>
+      )}
       <p>
         Get the{" "}
         <span className="has-text-weight-bold">
-          Six Habits for Conquering Anxiety and Depression
+          Six Habits for Conquering Anxiety and Depression minibook
         </span>{" "}
-        for <span className="has-text-weight-bold">FREE</span> by subscribing to
+        for <span className="has-text-weight-bold">free</span> by subscribing to
         the newsletter!
       </p>
       <section>
