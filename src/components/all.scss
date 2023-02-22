@@ -32,7 +32,7 @@ html {
   color: #fff !important;
 }
 
-.hero-body {
+.hero-body-custom {
   // relative position required for the cutout
   position: relative;
   padding: 0 !important;
@@ -40,7 +40,7 @@ html {
   overflow: hidden;
 }
 
-.hero-cutout {
+.hero-cutout-custom {
   background: $gray-accent-dark;
   position: absolute;
   right: 0;
@@ -54,9 +54,15 @@ html {
   border-top-left-radius: 5px;
 }
 
-.hero-logo {
+.hero-logo-custom {
   height: 280px;
   width: 280px;
+}
+
+.hero-body-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .blog-columns {
@@ -155,11 +161,11 @@ html {
     background-color: $primary-dark !important;
   }
 
-  .hero-cutout {
+  .hero-cutout-custom {
     left: 0px;
   }
 
-  .hero-logo {
+  .hero-logo-custom {
     height: 180px;
     width: 180px;
   }

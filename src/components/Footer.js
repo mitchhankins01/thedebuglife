@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import Newsletter from "./Newsletter";
+import { urls } from "./Navbar";
 
 const Footer = () => {
   return (
@@ -11,16 +11,13 @@ const Footer = () => {
             <div className="column is-4">
               <section className="menu">
                 <ul className="menu-list">
-                  <li>
-                    <Link to="/" className="navbar-item">
-                      Home
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="navbar-item" to="/about">
-                      About
-                    </Link>
-                  </li>
+                  {urls.map(url => (
+                    <li>
+                      <Link to={url.to} className="navbar-item">
+                        {url.label}
+                      </Link>
+                    </li>
+                  ))}
                 </ul>
               </section>
             </div>

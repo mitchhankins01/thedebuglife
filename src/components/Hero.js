@@ -4,7 +4,7 @@ import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
 const Hero = ({ imageInfo, location }) => {
   return (
     <section className="hero">
-      <div className="hero-body">
+      <div className="hero-body hero-body-custom">
         <figure className="image hero-image">
           {location === "blog" && (
             <StaticImage
@@ -31,10 +31,10 @@ const Hero = ({ imageInfo, location }) => {
             />
           )}
         </figure>
-        <div className="hero-cutout">
+        <div className="hero-cutout hero-cutout-custom">
           <StaticImage
             alt="logo"
-            className="hero-logo"
+            className="hero-logo hero-logo-custom"
             src="../img/hero-logo.png"
             objectFit="contain"
           />

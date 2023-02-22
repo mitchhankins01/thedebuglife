@@ -2,6 +2,12 @@ import React from "react";
 import { Link } from "gatsby";
 import { useLocation } from "@reach/router";
 
+export const urls = [
+  { to: "/blog", label: "Blog" },
+  { to: "/about", label: "About" },
+  // { to: "/freecall", label: "Free Call" },
+];
+
 const Navbar = () => {
   const { pathname } = useLocation();
   const [active, setActive] = React.useState(false);
@@ -52,10 +58,7 @@ const Navbar = () => {
 
       <div id="navMenu" className={`navbar-menu ${navBarActiveClass}`}>
         <div className="navbar-start ">
-          {[
-            { to: "/blog", label: "Blog" },
-            { to: "/about", label: "About" },
-          ].map(({ to, label }) => (
+          {urls.map(({ to, label }) => (
             <Link
               key={to}
               className={`navbar-item navbar-main-link ${
