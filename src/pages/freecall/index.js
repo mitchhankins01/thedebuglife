@@ -3,7 +3,7 @@ import Layout from "../../components/Layout";
 
 const ps = [
     //video
-    { title: "Sales Video " },
+    { title: "" },
     //promise
     { subtitle: "Discover how the Debug Life can help you live your best life yet. Imagine waking up every day excited for what's to come instead of settling for a life of regrets and unfulfilled potential. " },
     //button
@@ -42,7 +42,7 @@ const Index = () => {
                     return (
                         <section className={`hero is-small ${index % 2 === 0 && 'is-primary'}`}>
                             <div className="hero-body hero-body-button-container">
-                                <button className="button is-link" type="submit">
+                                <button className="button is-link" type="submit" onClick={() => window.open("https://calendly.com/thedebuglife/freecall", "_blank")}>
                                     Schedule Your Free Call
                                 </button>
                             </div>

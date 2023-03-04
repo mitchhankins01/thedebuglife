@@ -5,7 +5,7 @@ import { useLocation } from "@reach/router";
 export const urls = [
   { to: "/blog", label: "Blog" },
   { to: "/about", label: "About" },
-  // { to: "/freecall", label: "Free Call" },
+  { to: "/freecall", label: "Free Call" },
 ];
 
 const Navbar = () => {
