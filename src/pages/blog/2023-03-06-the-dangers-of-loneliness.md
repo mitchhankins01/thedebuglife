@@ -19,7 +19,7 @@ tags:
 [Listen to the podcast version here](https://www.buzzsprout.com/2037301/12380655)
 
 ## Loneliness Is Serious and Common
-Statistics show more than half of young Americans don't feel close to anyone, and that number has doubled since the 1980s. Part of being human is that we all feel lonely at times. Even the most extroverted people have likely felt the urge to connect and experienced sadness from being unable to interact with someone.
+
 
 Being social is encoded in our genes because, during the process of evolution, it increased our chances of survival. Wanting to belong and having to feel needed is in our nature. We are genetically hardwired to respond to inputs from our environment. When you are thirsty, you drink. When you are hungry, you eat. And when you are lonely, your mind is communicating a desire to connect with others in order to feel safe.
 
