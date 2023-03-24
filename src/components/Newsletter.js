@@ -7,7 +7,7 @@ function encode(data) {
     .join("&");
 }
 
-const Newsletter = ({ isWide, hideImage }) => {
+const Newsletter = ({ isWide, hideImage, children }) => {
   const [loading, setLoading] = React.useState(false);
   const [response, setResponse] = React.useState("");
   const [formState, setFormState] = React.useState({ isValidated: false });
@@ -55,21 +55,32 @@ const Newsletter = ({ isWide, hideImage }) => {
     <div className="content">
       {!hideImage && (
         <div className={isWide ? "lead-preview-wide" : "lead-preview"}>
-          <StaticImage
-            alt="logo"
-            className=""
-            src="../img/lead_preview.png"
-            objectFit="contain"
-          />
+          {isWide ? (
+            <StaticImage
+              width={300}
+              alt="logo"
+              className=""
+              src="../img/lead_preview.png"
+              objectFit="contain"
+            />
+          ) : (
+            <StaticImage
+              alt="logo"
+              className=""
+              src="../img/lead_preview.png"
+              objectFit="contain"
+            />
+          )}
         </div>
       )}
+      {children}
+      <p>{' '}</p>
       <p>
         Get the{" "}
         <span className="has-text-weight-bold">
-          Six Habits for Conquering Anxiety and Depression minibook
+          Six Habits for Overcoming Isolation Guide
         </span>{" "}
-        for <span className="has-text-weight-bold">free</span> by subscribing to
-        the newsletter!
+        for <span className="has-text-weight-bold">free</span>
       </p>
       <section>
         <form
@@ -126,7 +137,7 @@ const Newsletter = ({ isWide, hideImage }) => {
               className="button email-button"
               type="submit"
             >
-              {loading ? "Subscribing" : "Sign Up"}
+              {loading ? "Submitting" : "Get the Guide"}
             </button>
           </div>
         </form>
