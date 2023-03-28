@@ -8,14 +8,28 @@ const Index = () => {
             <div style={{ margin: 50 }}>
                 <Newsletter isWide={true}>
                     <br />
+                    <h3>
+                        Six Habits to Overcome Isolation: Your Guide to a Connected Life
+                    </h3>
+                    <h5>
+                        Transform Your Life and Foster Meaningful Connections
+                    </h5>
                     <p>
-                        I used to feel like the empty shell of a person just going through the motions of life. People jokingly referred to me as a robot and described me as overly logical without any apparent emotions.
+                        Are you feeling isolated and disconnected from the world around you? Discover six daily habits that will help you overcome isolation and embrace a life full of joy and meaningful connection.
                     </p>
                     <p>
-                        I was depressed, anxious, and didn't understand the point of being alive. Nothing really seemed to matter at all, I mostly  isolated myself. I spent holidays alone, didn't put much effort into developing friendships, and overcompensated for the emptiness inside of me by embracing workaholicism and consuming recreational drugs such as alcohol, weed, and nicotine.
+                        In this guide, you'll uncover the power of:
+                        <ul>
+                            <li>Journaling: Document your thoughts and experiences, gain clarity on your ideas, and track your personal growth journey.</li>
+                            <li>Reading: Access the wisdom of experts and thought leaders, equipping yourself with the knowledge and strategies you need to reach your goals and aspirations.</li>
+                            <li> Exercising: Elevate your physical and mental well-being through regular activity that releases mood-boosting chemicals and supports overall health.</li>
+                            <li>Meditating: Embrace serenity and focus, nurture creativity, and develop resilience against daily stressors with consistent meditation practice.</li>
+                            <li>Executing: Set and achieve daily intentions, maintaining a laser focus on your goals and fostering a positive, proactive mindset.</li>
+                            <li>Contributing: Make a difference in the lives of others, forge meaningful social connections, and grow your confidence by actively engaging in acts of kindness and support.</li>
+                        </ul>
                     </p>
                     <p>
-                        But then, everything changed when I found the courage to be myself and started attracting the right people. Nowadays, instead of waking up with dreadful fear of what is to come, I get out of bed with excitement and full of gratitude. I spend my time doing things I enjoy, with people that make everything more meaningful. I want to help you make the same journey, and that's why I've summarized everything I learned into the following habits.
+                        Don't let isolation hold you back. 
                     </p>
                 </Newsletter>
             </div>
