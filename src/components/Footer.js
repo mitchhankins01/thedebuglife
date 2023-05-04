@@ -11,8 +11,8 @@ const Footer = () => {
             <div className="column is-4">
               <section className="menu">
                 <ul className="menu-list">
-                  {urls.map(url => (
-                    <li>
+                  {urls.map((url, i) => (
+                    <li key={i}>
                       <Link to={url.to} className="navbar-item">
                         {url.label}
                       </Link>
